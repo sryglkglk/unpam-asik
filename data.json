@@ -1,0 +1,245 @@
+{
+    "ketua": {
+        "nama"      : "ASEP SURYA AGUSTIN - MR.SURYA",
+        "nim"       : "221011450392",
+        "no_hp"     : "0851-5613-2689",
+        "link"      : "https://wa.me/6285156132689",
+        "email"     : "sry.kuliah.unpam@gmail.com"
+    },
+
+
+    
+    "pekan_ini": "I",
+    "pertemuan_2sks" : "P1",
+    "pertemuan_3sks" : "P1",
+
+    
+    "mk.1": {
+        "judul"     : "Keamanan Komputer",
+        "alias"     : "KamKom",
+        "dosen"     : "SARMAN, S.Kom., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "Offline",
+        "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
+
+    },
+
+    "mk.2": {
+        "judul"     : "Pemrograman Web II",
+        "alias"     : "Web 2",
+        "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
+        "sks"       : "3",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "Offline"
+    },
+
+    "mk.3": {
+        "judul"     : "Jaringan Nirkabel",
+        "alias"     : "JANIR",
+        "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "Offline"
+    },
+
+    "mk.4": {
+        "judul"     : "Kecakapan Antar Personal",
+        "alias"     : "KECAPER",
+        "dosen"     : "EKO SUTONO, S.T., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "Offline"
+    },
+
+    "mk.5": {
+        "judul"     : "Testing dan QA Perangkat Lunak",
+        "alias"     : "TEST",
+        "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
+        "sks"       : "2",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "[2026-03-07, 23:59:59]"
+    },
+    
+    "mk.6": {
+        "judul"     : "Etika Profesi",
+        "alias"     : "EP",
+        "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
+        "sks"       : "2",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "[2026-03-07, 23:59:59]"
+    },
+
+    "mk.7": {
+        "judul"     : "Manajemen Proyek Informatika",
+        "alias"     : "MPI",
+        "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
+        "sks"       : "2",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "[2026-03-07, 23:59:59]"
+    },
+
+    "mk.8": {
+        "judul"     : "Arsitektur dan Organisasi Komputer",
+        "alias"     : "AOKA",
+        "dosen"     : "NANANG, S.Kom., M.Kom.",
+        "sks"       : "3",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_1",
+        "deadline"  : "[2026-03-07, 23:59:59]"
+    },
+
+
+
+
+
+
+    "info.1": {
+        "judul"     : "Masuk Jam Pertama Perkuliahan Ramadhan",
+        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan - Bawa Laptop - Matkul Keamanan Komputer",
+        "realease"  : "Kamis, 2026-02-26"
+    },
+
+    "info.2": {
+        "judul"     : "Belum ada Info Tambahan",
+        "isi"       : "Info Tambahan akan diupdate terus di sini (sesuai mood admin)",
+        "realease"  : "Kamis, 2026-02-26"
+    },
+
+
+"info.3": {
+    "judul"     : "Grup WA dan Fasilitas Matkul",
+    "isi"       : "<ol><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
+    "realease"  : "Minggu, 2026-03-01"
+},
+
+
+
+
+
+
+    "tugas.1": {
+        "id_mk"     : "Tugas 1",
+        "namatugas" : "Blom Ada Tugas",
+        "deskripsi" : "Nanti diisi kalo ada",
+        "cara"      : "sementara info ini aja dulu",
+        "deadline"  : "2026-03-07, 23:59:59"
+    },
+
+    "tugas.2": {
+        "id_mk"     : "Tugas 2",
+        "namatugas" : "Blom Ada Tugas",
+        "deskripsi" : "Nanti diisi kalo ada",
+        "cara"      : "sementara info ini aja dulu",
+        "deadline"  : "2026-03-14, 23:59:59" 
+    },
+
+        "tugas.3": {
+        "id_mk"     : "Tugas 3",
+        "namatugas" : "Blom Ada Tugas",
+        "deskripsi" : "Nanti diisi kalo ada",
+        "cara"      : "sementara info ini aja dulu",
+        "deadline"  : "2026-03-21, 23:59:59" 
+    },
+
+
+
+
+
+    "kontak.1": {
+        "id_mk"     : "mk.1", 
+        "komentar"  : "(mk.1) menyatakan ke mana kontak ini ditujukan",
+        "no_hp"     : "0896-1819-0405",
+        "email"     : "dosen02966@unpam.ac.id",
+        "link"      : "https://wa.me/6289618190405"
+    },
+
+    "kontak.2": {
+        "id_mk"     : "mk.2",
+        "no_hp"     : "0812-1579-288",
+        "email"     : "dosen02289@unpam.ac.id",
+        "link"      : "https://wa.me/628121579288"
+    },
+
+    "kontak.3": {
+        "id_mk"     : "mk.3",
+        "no_hp"     : "0813-8899-4453",
+        "email"     : "dosen00833@unpam.ac.id",
+        "link"      : "https://wa.me/6281388994453"
+    },
+
+    "kontak.4": {
+        "id_mk"     : "mk.4",
+        "no_hp"     : "0815-8424-4678",
+        "email"     : "dosen02598@unpam.ac.id",
+        "link"      : "https://wa.me/6281584244678"
+    },
+
+    "kontak.5": {
+        "id_mk"     : "mk.5",
+        "no_hp"     : "0877-1052-8643",
+        "email"     : "dosen02360@unpam.ac.id",
+        "link"      : "https://wa.me/6287710528643"
+    },
+
+    "kontak.6": {
+        "id_mk"     : "mk.6",
+        "no_hp"     : "0815-1011-5039",
+        "email"     : "dosen00404@unpam.ac.id",
+        "link"      : "https://wa.me/6281510115039"
+    },
+
+    "kontak.7": {
+        "id_mk"     : "mk.7",
+        "no_hp"     : "0822-3366-2194",
+        "email"     : "dosen02337@unpam.ac.id",
+        "link"      : "https://wa.me/6282233662194"
+    },
+
+    "kontak.8": {
+        "id_mk"     : "mk.8",
+        "no_hp"     : "0813-8899-0777",
+        "email"     : "dosen02599@unpam.ac.id",
+        "link"      : "https://wa.me/6281388990777"
+    },
+
+
+
+
+    "info_umum.1": {
+        "judul"     : "Males Ngisi Info",
+        "isi"       : "Intinya jangan lupa bayaran, daftar Ujikom dan Toefl sesuai kesanggupan, sisanya bisa dibicarakan.",
+        "realease"  : "Kamis, 2026-02-26"
+    },
+
+        "info_umum.2": {
+        "judul"     : "Batas Pembayaran UTS",
+        "isi"       : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
+        "realease"  : "Jum'at, 2026-02-27"
+    },
+
+        "info_umum.3": {
+        "judul"     : "Pendaftaran Ujikom Gelombang 65",
+        "isi"       : "Jadwal:<br><ol><li>Pendaftaran: 23 Februari - 29 Maret 2026</li><li>Pelatihan: 5 April 2026</li><li>Ujian: 13 - 28 April 2026</li></ol>",
+        "realease"  : "Sabtu, 2026-02-28"
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

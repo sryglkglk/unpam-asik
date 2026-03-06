@@ -1,0 +1,321 @@
+/* Efek Halus */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selalu dalam Night Mode */
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.85)), url('../css/viktor_bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+
+}
+
+/* Pastikan tombol Sidebar tetap di layar */
+.toggle-btn {
+    position: fixed;
+    top: 20px; /* Tambah ruang sedikit dari atas */
+    left: 20px; /* Tambah ruang dari kiri */
+    font-size: 28px;
+    cursor: pointer;
+    padding: 12px 16px;
+    background-color: rgba(0, 0, 0, 0.6); /* Lebih gelap biar kontras */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    z-index: 9999; /* Pastikan ini paling tinggi */
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+/* Efek Overlay untuk Kontras Maksimal */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    z-index: 999; /* Di bawah sidebar (sidebar z-index: 1000) */
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+/* Overlay aktif saat sidebar muncul */
+.sidebar.active ~ .overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    z-index: 1000; /* Pastikan sidebar di atas konten */
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(45deg, #0d6efd, #6610f2);
+    color: white;
+    padding: 60px 20px 20px;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 4px 0 10px rgba(0,0,0,0.3);
+}
+/* Judul Sidebar */
+.sidebar-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 15%;
+    color: #f0f0f0;
+}
+
+/* Navigasi Sidebar */
+.sidebar-menu a {
+    display: block;
+    padding: 12px;
+    margin: 5px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+/* Hover efek untuk sidebar */
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?education') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.hero-content {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+    
+/* Konten utama geser */
+.main-content {
+    padding: 40px 20px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+canvas {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.text-primary {
+    color: #4dabf7 !important;
+}
+
+h2 {
+    color: #4dabf7;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  padding-left: 0 !important;
+}
+
+
+/* ============================= */
+/* RESPONSIVE TABLE → CARD MODE */
+/* ============================= */
+
+#matkul-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+}
+
+/* Biar di desktop tetap normal */
+#matkul-table th,
+#matkul-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+
+
+/* ============================= */
+/* MOBILE MODE */
+/* ============================= */
+@media (max-width: 600px) {
+
+#periode-pekan strong {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+#periode-pekan .periode-label {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+  #matkul-table thead {
+    display: none;
+  }
+
+  #matkul-table,
+  #matkul-table tbody,
+  #matkul-table tr,
+  #matkul-table td {
+    display: block;
+    width: 100%;
+  }
+
+  /* CARD FLAT */
+  #matkul-table tr {
+    margin-bottom: 16px;
+    padding: 16px;
+    background: #ffffff;
+    color: #1a1a1a;
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+
+  /* SETIAP FIELD JADI GRID 2 KOLOM */
+  #matkul-table td {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 8px;
+    padding: 8px 0;
+    align-items: start;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    text-align: left !important; /* semua align kiri */
+  }
+
+  #matkul-table td:last-child {
+    border-bottom: none;
+  }
+
+  /* LABEL */
+  #matkul-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #1d4ed8;
+    text-align: left;
+  }
+
+  /* ============================= */
+  /* KHUSUS DETAILS (MERGE STYLE)  */
+  /* ============================= */
+
+  /* paksa konten jadi 2 baris */
+  #matkul-table td[data-label="Details"] {
+    grid-template-rows: auto auto;
+  }
+
+  /* judul matkul (baris 1) */
+  #matkul-table td[data-label="Details"] > *:first-child {
+    grid-column: 2;
+  }
+
+  /* dosen (baris 2) */
+  #matkul-table td[data-label="Details"] > small {
+    grid-column: 2;
+    margin-top: -4px;
+    color: #666;
+    font-size: 12px;
+  }
+
+  /* supaya label cuma muncul di baris pertama */
+  #matkul-table td[data-label="Details"]::before {
+    grid-row: 1 / span 2;
+    align-self: start;
+  }
+
+/* ============================= */
+/* KHUSUS DEADLINE (MERGE STYLE) */
+/* ============================= */
+
+/* paksa konten jadi 2 baris */
+#matkul-table td[data-label="Deadline"] {
+grid-template-rows: auto auto;
+}
+
+/* baris 1 deadline utama */
+#matkul-table td[data-label="Deadline"] > *:first-child {
+grid-column: 2;
+}
+
+/* baris 2 (misalnya keterangan tambahan) */
+#matkul-table td[data-label="Deadline"] > small {
+grid-column: 2;
+margin-top: -4px;
+color: #666;
+font-size: 12px;
+}
+
+/* label cuma muncul di baris pertama */
+#matkul-table td[data-label="Deadline"]::before {
+grid-row: 1 / span 2;
+align-self: start;
+}
+
+  /* ============================= */
+
+  /* MATKUL JADI JUDUL CARD */
+  #matkul-table td[data-label="Matkul"] {
+    font-size: 17px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 4px;
+  }
+
+  /* TOMBOL FULL WIDTH */
+  #matkul-table td[data-label="Link"] a.btn {
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+}
+
+/* Center kolom tertentu saat mode tabel (desktop) */
+#matkul-table th:nth-child(3),
+#matkul-table th:nth-child(4),
+#matkul-table th:nth-child(5),
+#matkul-table th:nth-child(6),
+#matkul-table td:nth-child(3),
+#matkul-table td:nth-child(4),
+#matkul-table td:nth-child(5),
+#matkul-table td:nth-child(6) {
+    text-align: center;
+}

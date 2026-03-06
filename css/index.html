@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASIK</title>
+  <link rel="icon" href="asik_logo.png" type="image/png" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Kustom CSS -->
+  <link rel="stylesheet" href="./css/style.css?v=2">
+</head>
+<body>
+  <!-- Tombol Toggle -->
+  <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+  
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar">
+    <h2 class="sidebar-title">Navigasi Cepat</h2>
+    <nav class="sidebar-menu">
+      <a href="#pekan" onclick="toggleSidebar()">📅 Info Pekan Ini</a>
+      <a href="#pertemuan" onclick="toggleSidebar()">📚 Info Pertemuan</a>
+      <a href="#tugas" onclick="toggleSidebar()">📝 Info Tugas</a>
+      <a href="#kontak" onclick="toggleSidebar()">☎️ Info Kontak</a>
+      <a href="#umum" onclick="toggleSidebar()">📢 Info Umum</a>
+    </nav>
+  </div>
+  <div class="overlay"></div> <!-- Efek transparan -->
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-aos="fade-up">Aplikasi Sistem Informasi Kelas</h1>
+      <p data-aos="fade-up" data-aos-delay="200">Jadi yang terbaik dengan cara ASIK</p>
+      <a href="#pekan" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">Let's Go!</a>
+    </div>
+  </section>
+  <div id="tanggal-hari" style="text-align:center; font-weight:bold; margin-top:10px;"></div>
+  <div id="jam-sekarang" style="text-align:center; font-size:1.5em; color:#fff; font-weight:bold; text-shadow:0 1px 4px #222;"></div>
+  <script src="./js/nowtime.js"></script>
+  <!-- Konten Utama -->
+  <div id="main" class="main-content container">
+    <section id="pekan" data-aos="fade-up">
+      <h2 class="text-primary">📅 Info Pekan Ini</h2>
+      <p id="periode-pekan">
+        <strong>Pekan ...</strong><br>
+        <strong>...</strong>
+      </p>
+      <script src="./js/datapekan.js"></script>
+    
+    <div class="table-responsive">
+    <table class="table table-bordered" id="matkul-table">
+        <thead class="table-dark">
+          <tr>
+            <th>Matkul</th>
+            <th>Details</th>
+            <th class="text-center align-middle">SKS</th>
+            <th class="text-center align-middle">Jadwal</th>
+            <th class="text-center align-middle">Deadline</th>
+            <th class="text-center align-middle">Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data akan diisi via JS -->
+        </tbody>
+      </table>
+      </div>
+      <script src="./js/tabelpekan.js"></script>
+    </section>
+
+    <hr>
+
+    <!-- Info Pertemuan -->
+    <section id="pertemuan" data-aos="fade-up" data-aos-delay="100">
+      <h2 class="text-primary">📚 Info Pertemuan Mata Kuliah</h2>
+      <ul id="pertemuan-list">
+        <!-- Data pertemuan akan diisi via JS -->
+      </ul>
+      <script src="./js/pertemuan.js"></script>
+    </section>
+
+    <hr>
+
+    <!-- Info Tugas -->
+    <section id="tugas" data-aos="fade-up" data-aos-delay="200">
+      <h2 class="text-primary">📝 Info Tugas</h2>
+      <ul id="tugas-list">
+      </ul>
+      <!-- Data tugas akan diisi via JS -->      
+      <script src="./js/infotugas.js"></script>
+
+      <!-- Heading untuk Diagram Prioritas Tugas -->
+      <h2 class="text-primary text-center my-4">DIAGRAM PRIORITAS TUGAS</h2>
+      <canvas id="tugasChart" width="400" height="200"></canvas>
+    </section>
+    <script src="./js/chart.js"></script>
+
+    <hr>
+
+    <!-- Info Kontak -->
+    <section id="kontak" data-aos="fade-up" data-aos-delay="300">
+      <h2 class="text-primary">☎️ Info Kontak</h2>
+      <div id="kontak-ketua"></div>
+      <div id="kontak-dosen"></div>
+      <script src="./js/datakontak.js"></script>
+    </section>
+
+    <hr>
+
+    <!-- Info Umum -->
+    <section id="umum" data-aos="fade-up" data-aos-delay="400">
+      <h2 class="text-primary">📢 Info Umum Lainnya</h2>
+      <ul id="umum-list">
+        <!-- Data info umum akan diisi via JS -->
+      </ul>
+      <script src="./js/infoumum.js"></script>
+    </section>
+  </div>
+
+  <!-- Script AOS dan Power Refresh -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="./js/sidebarscript.js"></script>
+  <script>AOS.init();</script>
+  <!-- Tombol Power Refresh -->
+  <div style="text-align:center; margin: 40px 0 20px 0;">
+    <button id="power-refresh-btn" class="btn btn-danger" style="font-weight:bold; font-size:1.1em;">
+      🔄 Power Refresh
+    </button>
+  </div>
+  <script>
+    document.getElementById('power-refresh-btn').addEventListener('click', function() {
+      // Force reload from server, bypass cache
+      location.reload(true);
+    });
+  </script>
+</body>
+</html>
