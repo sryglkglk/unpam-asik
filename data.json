@@ -227,7 +227,7 @@
 
         "info_umum.3": {
         "judul"     : "Pendaftaran Ujikom Gelombang 65",
-        "isi"       : "Jadwal:<br><ol><li>Pendaftaran: 23 Februari - 29 Maret 2026</li><li>Pelatihan: 5 April 2026</li><li>Ujian: 13 - 28 April 2026</li></ol>",
+        "isi"       : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pendaftaran:</dt><dd>23 Februari - 29 Maret 2026</dd></li><li><dt>Pelatihan:</dt><dd>5 April 2026</dd></li><li><dt>Ujian:</dt><dd>13 - 28 April 2026</dd></li></ul>",
         "realease"  : "Sabtu, 2026-02-28"
     }
 
