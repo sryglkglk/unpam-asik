@@ -9,18 +9,17 @@
 
 
     
-    "pekan_ini": "I",
-    "pertemuan_2sks" : "P1",
-    "pertemuan_3sks" : "P1",
+    "pekan_ini": "II",
+    "pertemuan_2sks" : "P2",
+    "pertemuan_3sks" : "P2, P3",
 
-    
     "mk.1": {
         "judul"     : "Keamanan Komputer",
         "alias"     : "KamKom",
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_1",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_2",
         "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -31,9 +30,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_1",
-        "deadline"  : "Offline"
+        "jadwal"    : "Offline, Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2026-03-14, 23:59:59]"
     },
 
     "mk.3": {
@@ -42,7 +41,7 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_1",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_2",
         "deadline"  : "Offline"
     },
 
@@ -52,7 +51,7 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_1",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_2",
         "deadline"  : "Offline"
     },
 
@@ -62,8 +61,8 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_1",
-        "deadline"  : "[2026-03-07, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2026-03-14, 23:59:59]"
     },
     
     "mk.6": {
@@ -72,8 +71,8 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_1",
-        "deadline"  : "[2026-03-07, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2026-03-14, 23:59:59]"
     },
 
     "mk.7": {
@@ -82,8 +81,8 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_1",
-        "deadline"  : "[2026-03-07, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2026-03-14, 23:59:59]"
     },
 
     "mk.8": {
@@ -92,8 +91,8 @@
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_1",
-        "deadline"  : "[2026-03-07, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_2",
+        "deadline"  : "[2026-03-14, 23:59:59]"
     },
 
 
@@ -103,8 +102,8 @@
 
     "info.1": {
         "judul"     : "Masuk Jam Pertama Perkuliahan Ramadhan",
-        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan - Bawa Laptop - Matkul Keamanan Komputer",
-        "realease"  : "Kamis, 2026-02-26"
+        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan,br>Jangan Lupa Bawa Laptop",
+        "realease"  : "Senin, 2026-03-09"
     },
 
     "info.2": {
