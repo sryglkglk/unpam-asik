@@ -102,7 +102,7 @@
 
     "info.1": {
         "judul"     : "Masuk Jam Pertama Perkuliahan Ramadhan",
-        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan,br>Jangan Lupa Bawa Laptop",
+        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan,<br>Jangan Lupa Bawa Laptop",
         "realease"  : "Senin, 2026-03-09"
     },
 
