@@ -9,7 +9,7 @@
 
 
     
-    "pekan_ini": "Libur",
+    "pekan_ini": "Libur (Abaikan Periode di bawah)",
     "pertemuan_2sks" : "-",
     "pertemuan_3sks" : "-",
 
@@ -30,7 +30,7 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
+        "jadwal"    : "Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_4",
         "deadline"  : "Offline"
     },
@@ -122,7 +122,7 @@
     "info.4": {
         "judul"     : "Libur Lebaran",
         "isi"       : "Tidak ada Perkuliahan selama libur Lebaran, mulai tanggal 17 - 29 Maret 2026.<br>Perkuliahan akan kembali normal mulai tanggal 30 Maret 2026.",
-        "realease"  : "Kamis, 2026-03-17"
+        "realease"  : "Senin, 2026-03-16"
     },
 
 
