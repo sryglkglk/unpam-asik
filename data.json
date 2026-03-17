@@ -9,9 +9,9 @@
 
 
     
-    "pekan_ini": "II",
-    "pertemuan_2sks" : "P2",
-    "pertemuan_3sks" : "P2, P3",
+    "pekan_ini": "Libur",
+    "pertemuan_2sks" : "-",
+    "pertemuan_3sks" : "-",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -19,7 +19,7 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_3",
         "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -31,8 +31,8 @@
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
         "jadwal"    : "Offline, Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_3",
-        "deadline"  : "[2026-03-14, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "Offline"
     },
 
     "mk.3": {
@@ -41,28 +41,28 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_3",
         "deadline"  : "Offline"
     },
 
     "mk.4": {
         "judul"     : "Kecakapan Antar Personal",
-        "alias"     : "KECAPER",
+        "alias"     : "KAP",
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_3",
         "deadline"  : "Offline"
     },
 
     "mk.5": {
         "judul"     : "Testing dan QA Perangkat Lunak",
-        "alias"     : "TEST",
+        "alias"     : "TQA",
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2026-03-14, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2026-04-04, 23:59:59]"
     },
     
     "mk.6": {
@@ -71,8 +71,8 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2026-03-14, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2026-04-04, 23:59:59]"
     },
 
     "mk.7": {
@@ -81,18 +81,18 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2026-03-14, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_3",
+        "deadline"  : "[2026-04-04, 23:59:59]"
     },
 
     "mk.8": {
         "judul"     : "Arsitektur dan Organisasi Komputer",
-        "alias"     : "AOKA",
+        "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_2",
-        "deadline"  : "[2026-03-14, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_4",
+        "deadline"  : "[2026-04-03, 23:59:59]"
     },
 
 
@@ -113,12 +113,17 @@
     },
 
 
-"info.3": {
-    "judul"     : "Grup WA dan Fasilitas Matkul",
-    "isi"       : "<ol><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
-    "realease"  : "Minggu, 2026-03-01"
-},
+    "info.3": {
+        "judul"     : "Grup WA dan Fasilitas Matkul",
+        "isi"       : "<ol><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
+        "realease"  : "Minggu, 2026-03-01"
+    },
 
+    "info.4": {
+        "judul"     : "Libur Lebaran",
+        "isi"       : "Tidak ada Perkuliahan selama libur Lebaran, mulai tanggal 17 - 29 Maret 2026.<br>Perkuliahan akan kembali normal mulai tanggal 30 Maret 2026.",
+        "realease"  : "Kamis, 2026-03-17"
+    },
 
 
 
