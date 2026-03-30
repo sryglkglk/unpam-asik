@@ -9,9 +9,9 @@
 
 
     
-    "pekan_ini": "Libur (Abaikan Periode di bawah)",
-    "pertemuan_2sks" : "-",
-    "pertemuan_3sks" : "-",
+    "pekan_ini": "III",
+    "pertemuan_2sks" : "P3",
+    "pertemuan_3sks" : "P4",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -101,28 +101,15 @@
 
 
     "info.1": {
-        "judul"     : "Masuk Jam Pertama Perkuliahan Ramadhan",
-        "isi"       : "Jam ke-1 Masuk Pukul 9:00 selama Ramadhan,<br>Jangan Lupa Bawa Laptop",
-        "realease"  : "Senin, 2026-03-09"
+        "judul"     : "Masuk Jam Pertama Perkuliahan Normal",
+        "isi"       : "Jam ke-1 Masuk Pukul 7:40 selama Ramadhan,<br>Jangan Lupa Bawa Laptop",
+        "realease"  : "Senin, 2026-03-30"
     },
 
     "info.2": {
-        "judul"     : "Belum ada Info Tambahan",
-        "isi"       : "Info Tambahan akan diupdate terus di sini (sesuai mood admin)",
-        "realease"  : "Kamis, 2026-02-26"
-    },
-
-
-    "info.3": {
         "judul"     : "Grup WA dan Fasilitas Matkul",
         "isi"       : "<ol><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
         "realease"  : "Minggu, 2026-03-01"
-    },
-
-    "info.4": {
-        "judul"     : "Libur Lebaran",
-        "isi"       : "Tidak ada Perkuliahan selama libur Lebaran, mulai tanggal 16 - 29 Maret 2026.<br>Perkuliahan akan kembali normal mulai tanggal 30 Maret 2026.",
-        "realease"  : "Senin, 2026-03-16"
     },
 
 
