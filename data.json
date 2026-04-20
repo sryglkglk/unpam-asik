@@ -9,9 +9,9 @@
 
 
     
-    "pekan_ini": "V",
-    "pertemuan_2sks" : "P5",
-    "pertemuan_3sks" : "P7",
+    "pekan_ini": "VI",
+    "pertemuan_2sks" : "P6",
+    "pertemuan_3sks" : "P8 , P9",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -19,7 +19,7 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_5",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_6",
         "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -30,9 +30,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "Offline"
+        "jadwal"    : "Offline, Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_9",
+        "deadline"  : "[2026-04-25, 23:59:59]"
     },
 
     "mk.3": {
@@ -41,7 +41,7 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_5",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_6",
         "deadline"  : "Offline"
     },
 
@@ -51,7 +51,7 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_5",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_6",
         "deadline"  : "Offline"
     },
 
@@ -61,8 +61,8 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_5",
-        "deadline"  : "[2026-04-18, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_6",
+        "deadline"  : "[2026-04-25, 23:59:59]"
     },
     
     "mk.6": {
@@ -71,8 +71,8 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_5",
-        "deadline"  : "[2026-04-18, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_6",
+        "deadline"  : "[2026-04-25, 23:59:59]"
     },
 
     "mk.7": {
@@ -81,8 +81,8 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_5",
-        "deadline"  : "[2026-04-18, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_6",
+        "deadline"  : "[2026-04-25, 23:59:59]"
     },
 
     "mk.8": {
@@ -90,9 +90,9 @@
         "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "[2026-04-17, 23:59:59]"
+        "jadwal"    : "Online x2",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "[2026-04-24, 23:59:59]"
     },
 
 
