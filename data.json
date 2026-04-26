@@ -9,9 +9,9 @@
 
 
     
-    "pekan_ini": "VI",
-    "pertemuan_2sks" : "P6",
-    "pertemuan_3sks" : "P8 , P9",
+    "pekan_ini": "VII",
+    "pertemuan_2sks" : "P7",
+    "pertemuan_3sks" : "P10",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -19,7 +19,7 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_6",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_7",
         "deadline"  : "Offline",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
@@ -30,9 +30,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_9",
-        "deadline"  : "[2026-04-25, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_10",
+        "deadline"  : "Offline"
     },
 
     "mk.3": {
@@ -41,7 +41,7 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_6",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_7",
         "deadline"  : "Offline"
     },
 
@@ -51,7 +51,7 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_6",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_7",
         "deadline"  : "Offline"
     },
 
@@ -61,8 +61,8 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_6",
-        "deadline"  : "[2026-04-25, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_7",
+        "deadline"  : "[2026-05-02, 23:59:59]"
     },
     
     "mk.6": {
@@ -71,8 +71,8 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_6",
-        "deadline"  : "[2026-04-25, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_7",
+        "deadline"  : "[2026-05-02, 23:59:59]"
     },
 
     "mk.7": {
@@ -81,8 +81,8 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_6",
-        "deadline"  : "[2026-04-25, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_7",
+        "deadline"  : "[2026-05-02, 23:59:59]"
     },
 
     "mk.8": {
@@ -90,9 +90,9 @@
         "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Online x2",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_8",
-        "deadline"  : "[2026-04-24, 23:59:59]"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_10",
+        "deadline"  : "[2026-05-01, 23:59:59]"
     },
 
 
@@ -103,7 +103,7 @@
     "info.1": {
         "judul"     : "Masuk Jam Pertama Perkuliahan Normal",
         "isi"       : "Jam ke-1 Masuk Pukul 7:40,<br>Jangan Lupa Bawa Laptop",
-        "realease"  : "Senin, 2026-03-30"
+        "realease"  : "Senin, 2026-04-27"
     },
 
     "info.2": {
@@ -112,34 +112,38 @@
         "realease"  : "Minggu, 2026-03-01"
     },
 
+    "info.3": {
+        "judul"     : "Aplikasi Wajib",
+        "isi"       : "VSCode, Cisco Packet Tracer",
+        "realease"  : "Senin, 2026-04-27"
+    },
 
 
 
 
     "tugas.1": {
-        "id_mk"     : "Tugas 1",
-        "namatugas" : "Blom Ada Tugas",
-        "deskripsi" : "Nanti diisi kalo ada",
-        "cara"      : "sementara info ini aja dulu",
-        "deadline"  : "2026-03-07, 23:59:59"
+        "id_mk"     : "mk.4",
+        "namatugas" : "PPT Keseharian untuk MK Kecakapan Antar Personal",
+        "deskripsi" : "Buat PPT yang menggambarkan keseharian di tempat kerja atau aktivitas sehari-hari yang mencerminkan kompetensi KAP.",
+        "cara"      : "Dikumpulkan sebelum UTS",
+        "deadline"  : "2026-05-02, 15:00:00"
     },
 
     "tugas.2": {
-        "id_mk"     : "Tugas 2",
-        "namatugas" : "Blom Ada Tugas",
-        "deskripsi" : "Nanti diisi kalo ada",
-        "cara"      : "sementara info ini aja dulu",
-        "deadline"  : "2026-03-14, 23:59:59" 
+        "id_mk"     : "mk.2",
+        "namatugas" : "Full Update Repository Github",
+        "deskripsi" : "Mengerjakan semua latihan Pemrograman Web II yang belum dikerjakan, lalu update ke repository Github masing-masing.",
+        "cara"      : "Update Full Repository Github sebelum UTS untuk pertemuan 1-10",
+        "deadline"  : "2026-05-02, 09:20:00" 
     },
 
-        "tugas.3": {
-        "id_mk"     : "Tugas 3",
-        "namatugas" : "Blom Ada Tugas",
-        "deskripsi" : "Nanti diisi kalo ada",
-        "cara"      : "sementara info ini aja dulu",
-        "deadline"  : "2026-03-21, 23:59:59" 
+    "tugas.3": {
+        "id_mk"     : "mk.1",
+        "namatugas" : "Video Wawancara Kelompok Keamanan Komputer",
+        "deskripsi" : "Buat video wawancara bersama kelompok 3 orang kepada pekerja atau rekan sejawat yang bekerja untuk membahas topik terkait keamanan komputer, seperti ancaman siber, langkah-langkah keamanan, atau pengalaman pribadi terkait keamanan komputer di tempat kerjanya.",
+        "cara"      : "Dikumpulkan selesai UTS langsung ke Pak Sarman via WA",
+        "deadline"  : "2026-05-09, 15:00:00" 
     },
-
 
 
 
