@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     if (el) {
       setTimeout(() => {
         el.scrollIntoView({ behavior: 'smooth' });
-      }, 500); // delay kecil biar DOM settle dulu
+      }, 1000); // delay kecil biar DOM settle dulu
     }
   }
 });
