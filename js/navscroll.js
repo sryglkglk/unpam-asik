@@ -1,12 +1,11 @@
-// Vanilla JS
 window.addEventListener('DOMContentLoaded', () => {
   const hash = window.location.hash;
-  if (hash) {
+  if (!hash) return;
+
+  const tryScroll = () => {
     const el = document.querySelector(hash);
-    if (el) {
-      setTimeout(() => {
-        el.scrollIntoView({ behavior: 'smooth' });
-      }, 1000); // delay kecil biar DOM settle dulu
-    }
-  }
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  requestAnimationFrame(() => requestAnimationFrame(tryScroll));
 });
