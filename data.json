@@ -234,7 +234,6 @@
 
         "info_umum.5": {
         "judul"     : "<a style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</a>",
-        "isi"       : "info_seminar.html",
         "isi"       : "<a href=\"info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!</a>",
         "realease"  : "Selasa, 2026-04-28"
     }
