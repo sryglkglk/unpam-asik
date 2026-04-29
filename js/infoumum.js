@@ -57,7 +57,7 @@ fetch('./data.json')
       li.innerHTML = `
         <strong>${info.judul || ''}</strong><br>
         <small style="color:#fff;">[${tanggalRilis}]</small><br>
-        ${info.isi || ''}<br><br>
+        <div style="padding-left: 2em;">${info.isi || ''}</div><br><br>
       `;
 
       umumList.appendChild(li);

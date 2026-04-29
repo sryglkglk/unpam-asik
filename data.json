@@ -108,12 +108,12 @@
 
     "info.2": {
         "judul"     : "Grup WA dan Fasilitas Matkul",
-        "isi"       : "<ol><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
+        "isi"       : "<ol style='margin-left: -1em;'><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
         "realease"  : "Minggu, 2026-03-01"
     },
 
     "info.3": {
-        "judul"     : "Aplikasi Wajib",
+        "judul"     : "Aplikasi Wajib⚠️",
         "isi"       : "VSCode, Cisco Packet Tracer",
         "realease"  : "Senin, 2026-04-27"
     },
@@ -140,9 +140,17 @@
     "tugas.3": {
         "id_mk"     : "mk.1",
         "namatugas" : "Video Wawancara Kelompok Keamanan Komputer",
-        "deskripsi" : "Buat video wawancara bersama kelompok 3 orang kepada pekerja atau rekan sejawat yang bekerja untuk membahas topik terkait keamanan komputer, <br>seperti ancaman siber, langkah-langkah keamanan, atau pengalaman pribadi terkait keamanan komputer di tempat kerjanya.",
+        "deskripsi" : "Buat video wawancara bersama kelompok 3 orang kepada pekerja atau rekan sejawat yang bekerja untuk membahas topik terkait keamanan komputer, seperti ancaman siber, langkah-langkah keamanan, atau pengalaman pribadi terkait keamanan komputer di tempat kerjanya.",
         "cara"      : "Dikumpulkan selesai UTS langsung ke Pak Sarman via WA",
         "deadline"  : "2026-05-09, 15:00:00" 
+    },
+
+    "tugas.4": {
+        "id_mk"     : "mk.3",
+        "namatugas" : "Hasil Praktikum Cisco Packet Tracer",
+        "deskripsi" : "Selesaikan Praktikum Jaringan Nirkabel di Cisco Packet Tracer sesuai dengan petunjuk yang diberikan, lalu simpan hasilnya dalam bentuk file .pkt atau ditunjukkan langsung ke dosen.",
+        "cara"      : "Simpan file .pkt atau tunjukkan langsung ke Pak Jaka saat pertemuan berikutnya",
+        "deadline"  : "2026-05-02, 11:00:00" 
     },
 
 
@@ -215,25 +223,25 @@
     },
 
         "info_umum.2": {
-        "judul"     : "Batas Pembayaran UTS",
+        "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
         "isi"       : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
         "realease"  : "Jum'at, 2026-02-27"
     },
 
         "info_umum.3": {
-        "judul"     : "Pendaftaran Ujikom Gelombang 66",
+        "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
         "isi"       : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pendaftaran:</dt><dd>30 Maret - 26 April 2026</dd></li><li><dt>Pelatihan:</dt><dd>3 Mei 2026</dd></li><li><dt>Ujian:</dt><dd>11 Mei - 4 Juni 2026</dd></li></ul>",
         "realease"  : "Senin, 2026-04-06"
     },
 
         "info_umum.4": {
-        "judul"     : "<a style=\"color: yellow; text-decoration: none;\">SEMPRO TAHAP - III</a>",
+        "judul"     : "<span style=\"color: yellow; text-decoration: none;\">SEMPRO TAHAP - III</span>",
         "isi" : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pengajuan Judul:</dt><dd>27 Apr - 2 Mei 2026</dd></li><li><dt>Pendf. Judul diterima ke FTI & My UNPAM:</dt><dd>4-9 Mei 2026</dd></li><li><dt>Penyerahan berkas persyaratan:</dt><dd>11-18 Mei 2026</dd></li><li><dt>Pelaksanaan sidang Pra UAPS:</dt><dd>21-22 Mei 2026</dd></li></ul><br> <a href=\"https://informatika.unpam.ac.id/info-pendaftaran-dan-jadwal-proposal-tugas-akhir\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik di sini untuk selengkapnya!</a> <br> Bulan ini siapkan waktu aktif untuk memproses proposal skripsi ya semuanya. Semangaat!!<br>",
         "realease"  : "Kamis, 2026-04-23"
     },
 
         "info_umum.5": {
-        "judul"     : "<a style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</a>",
+        "judul"     : "<span style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
         "isi"       : "<a href=\"info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!</a>",
         "realease"  : "Selasa, 2026-04-28"
     }

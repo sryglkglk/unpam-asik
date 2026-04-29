@@ -13,6 +13,7 @@
 
             // Siapkan label dan data
             const labels = [];
+            const tooltipLabels = [];
             const chartData = [];
             const bgColors = [];
 
@@ -44,11 +45,12 @@
             tugasKeys.forEach(key => {
                 const tugas = data[key];
                 const mk = data[tugas.id_mk] || {};
-                const namaMk = mk.judul || tugas.id_mk || '';
+                const namaMk = mk.alias || tugas.id_mk || '';
                 const deadline = tugas.deadline ? new Date(tugas.deadline) : null;
                 // Ubah bagian label di sini:
                 const label = `${namaMk}\n${deadline ? '(' + deadline.toLocaleDateString('id-ID', { day: 'numeric', month: 'long' }).replace(' ', ' ') + ')' : ''}`;
                 labels.push(label);
+                tooltipLabels.push(`${mk.judul || mk.alias || ''}`);
                 const prioritas = getPrioritas(tugas.deadline);
                 chartData.push(prioritas);
                 bgColors.push(getColor(prioritas));
@@ -105,6 +107,9 @@
                         },
                         tooltip: {
                             callbacks: {
+                                title: function (tooltipItems) {
+                                    return tooltipLabels[tooltipItems[0].dataIndex] || '';
+                                },
                                 label: function (context) {
                                     const val = context.raw;
                                     switch (val) {

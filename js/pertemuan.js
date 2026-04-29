@@ -49,9 +49,9 @@ fetch('./data.json')
 
       const li = document.createElement('li');
       li.innerHTML = `
-        <strong>${info.judul || ''}</strong><br>
+        <strong style="color: #a3f7fd;">${info.judul || ''}</strong><br>
         <small class="text-muted" style="color:#fff !important;">[${tanggalRilis}]</small><br>
-        ${info.isi || ''}<br><br>
+        <div style="padding-left: 2em;">${info.isi || ''}</div><br><br>
       `;
       pertemuanList.appendChild(li);
     });
