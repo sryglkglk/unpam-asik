@@ -140,7 +140,7 @@
     "tugas.3": {
         "id_mk"     : "mk.1",
         "namatugas" : "Video Wawancara Kelompok Keamanan Komputer",
-        "deskripsi" : "Buat video wawancara bersama kelompok 3 orang kepada pekerja atau rekan sejawat yang bekerja untuk membahas topik terkait keamanan komputer, seperti ancaman siber, langkah-langkah keamanan, atau pengalaman pribadi terkait keamanan komputer di tempat kerjanya.",
+        "deskripsi" : "Buat video wawancara bersama kelompok 3 orang kepada pekerja atau rekan sejawat yang bekerja untuk membahas topik terkait keamanan komputer, <br>seperti ancaman siber, langkah-langkah keamanan, atau pengalaman pribadi terkait keamanan komputer di tempat kerjanya.",
         "cara"      : "Dikumpulkan selesai UTS langsung ke Pak Sarman via WA",
         "deadline"  : "2026-05-09, 15:00:00" 
     },
