@@ -7,10 +7,22 @@
           const tugasItems = Object.keys(data)
             .filter(key => key.startsWith('tugas.'))
             .map(key => {
+              
+             function parseDeadline(str) {
+                if (!str) return null;
+                // Ambil bagian tanggal saja, buang jam
+                const datePart = str.split(',')[0].trim(); // "2026-05-02"
+                const parts = datePart.split('-');
+                if (parts.length === 3) {
+                    return new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+                }
+                return new Date(datePart);
+            }               
+              
               const tugas = data[key];
               const mk = data[tugas.id_mk] || {};
               const namaMk = mk.judul || tugas.id_mk || '';
-              const deadline = tugas.deadline ? new Date(tugas.deadline) : null;
+              const deadline = tugas.deadline ? parseDeadline(tugas.deadline) : null;
               return { key, tugas, mk, namaMk, deadline };
             })
             .sort((a, b) => {
