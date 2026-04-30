@@ -223,13 +223,13 @@
     },
 
         "info_umum.2": {
-        "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
+        "judul"     : "<span style=\"color: orange; text-decoration: none;\">BATAS PEMBAYARAN</span>",
         "isi"       : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
         "realease"  : "Jum'at, 2026-02-27"
     },
 
         "info_umum.3": {
-        "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
+        "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO UJIKOM GELOMBANG 66</span>",
         "isi"       : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pendaftaran:</dt><dd>30 Maret - 26 April 2026</dd></li><li><dt>Pelatihan:</dt><dd>3 Mei 2026</dd></li><li><dt>Ujian:</dt><dd>11 Mei - 4 Juni 2026</dd></li></ul>",
         "realease"  : "Senin, 2026-04-06"
     },
