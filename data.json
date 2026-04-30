@@ -242,7 +242,7 @@
 
         "info_umum.5": {
         "judul"     : "<span style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
-        "isi"       : "<a href=\"info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!</a>",
+        "isi"       : "<a href=\"seminar 25-02new.html\" style=\"color: lightgreen; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(new)</a><br><a href=\"info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(old)</a>",
         "realease"  : "Selasa, 2026-04-28"
     }
 

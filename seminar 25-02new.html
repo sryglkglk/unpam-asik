@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar TI UNPAM 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --unpam-blue: #003366;
+            --unpam-yellow: #ffcc00;
+            --accent-orange: #ff6600;
+            --alert-red: #d9534f;
+            --text-dark: #333;
+            --bg-light: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Poppins', sans-serif; 
+            background-color: var(--bg-light); 
+            color: var(--text-dark); 
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        /* Header Section */
+        .header {
+            background: linear-gradient(135deg, var(--unpam-blue) 0%, #0055aa 100%);
+            color: var(--white);
+            padding: 40px 30px;
+            text-align: center;
+            border-bottom: 5px solid var(--unpam-yellow);
+        }
+        .header h1 { font-size: 1.8rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .header p { font-weight: 300; opacity: 0.9; font-size: 1.1rem; }
+
+        /* Main Content */
+        .content { padding: 30px; }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .info-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid var(--unpam-blue);
+        }
+        .info-card h3 { color: var(--unpam-blue); font-size: 0.9rem; text-transform: uppercase; margin-bottom: 8px; }
+        .info-card p { font-weight: 600; font-size: 1rem; }
+
+        /* Speaker Highlight */
+        .speaker-box {
+            background: #fff8e1;
+            border: 2px dashed var(--unpam-yellow);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .speaker-box h2 { color: #856404; font-size: 1.2rem; }
+        .speaker-box .name { font-size: 1.5rem; font-weight: 700; color: var(--unpam-blue); }
+
+        /* Table Style for Participants */
+        .section-title {
+            border-bottom: 2px solid var(--unpam-blue);
+            display: inline-block;
+            margin-bottom: 20px;
+            padding-right: 50px;
+            font-weight: 700;
+            color: var(--unpam-blue);
+        }
+
+        .participant-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+        .participant-table th, .participant-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .participant-table th { background-color: #eee; }
+        .badge {
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .badge-offline { background: #d4edda; color: #155724; }
+        .badge-online { background: #cce5ff; color: #004085; }
+
+        /* Highlight Section: DATES & PRICE */
+        .registration-mega-box {
+            background: #fff;
+            border: 3px solid var(--alert-red);
+            border-radius: 15px;
+            margin: 40px 0 20px 0;
+            position: relative;
+            animation: pulse-border 2s infinite;
+        }
+
+        @keyframes pulse-border {
+            0% { box-shadow: 0 0 0 0 rgba(217, 83, 79, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(217, 83, 79, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(217, 83, 79, 0); }
+        }
+
+        .mega-label {
+            background: var(--alert-red);
+            color: white;
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 5px 25px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .grid-regis {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0;
+        }
+
+        .regis-card {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .offline-side { border-right: 1px dashed #ccc; background: #fffcfc; border-radius: 15px 0 0 15px; }
+        .online-side { background: #fcfdff; border-radius: 0 15px 15px 0; }
+
+        .date-badge {
+            display: inline-block;
+            background: #333;
+            color: var(--unpam-yellow);
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin: 15px 0;
+            border: 2px solid #000;
+        }
+
+        .price-text {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--unpam-blue);
+            display: block;
+        }
+
+        /* --- CSS TOMBOL PENDAFTARAN OPTIMAL --- */
+        .btn-daftar-container {
+            text-align: center;
+            margin: 10px 0 40px 0;
+        }
+        .btn-daftar {
+            display: inline-block;
+            background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 16px 40px;
+            border-radius: 50px;
+            box-shadow: 0 8px 15px rgba(40, 167, 69, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 2px solid #ffffff;
+        }
+        .btn-daftar:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(40, 167, 69, 0.6);
+            background: linear-gradient(135deg, #218838 0%, #155724 100%);
+        }
+
+        /* Payment Logic */
+        .payment-section {
+            background: #f0f4f8;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        .step {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: flex-start;
+        }
+        .step-num {
+            background: var(--unpam-blue);
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+            font-size: 0.8rem;
+        }
+
+        .recommended {
+            background: #e7f3ff;
+            border: 1px solid #b3d7ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        /* Warning */
+        .warning-box {
+            background: #fff3cd;
+            color: #856404;
+            padding: 20px;
+            border-left: 10px solid var(--unpam-yellow);
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .warning-box h4 { margin-bottom: 5px; display: flex; align-items: center; }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.4rem; }
+            .content { padding: 15px; }
+            .grid-regis { grid-template-columns: 1fr; }
+            .offline-side { border-right: none; border-bottom: 1px dashed #ccc; border-radius: 15px 15px 0 0; }
+            .online-side { border-radius: 0 0 15px 15px; }
+            .btn-daftar { width: 100%; font-size: 1.1rem; padding: 15px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <p>SEMINAR TI UNPAM 2025 GENAP</p>
+        <h1>Empowering 21st Century Digital Talents</h1>
+        <p>Professional AI and Critical Thinking in Informatics</p>
+    </div>
+
+    <div class="content">
+        <div class="speaker-box">
+            <h2>NARASUMBER UTAMA (To Be Confirmed)</h2>
+            <div class="name">Prof. Stella Christie</div>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>WAKTU PELAKSANAAN</h3>
+                <p>Kamis, 11 Juni 2026</p>
+            </div>
+            <div class="info-card">
+                <h3>LOKASI (OFFLINE)</h3>
+                <p>Auditorium Darsono, Kampus Viktor Lt. 8</p>
+            </div>
+        </div>
+
+        <h3 class="section-title">Ketentuan Peserta</h3>
+        <table class="participant-table">
+            <thead>
+                <tr>
+                    <th>Program Studi / Kelas</th>
+                    <th>Semester</th>
+                    <th>Metode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reguler A, B, & CS</td>
+                    <td>1, 3, 4, 6</td>
+                    <td><span class="badge badge-offline">OFFLINE</span></td>
+                </tr>
+                <tr>
+                    <td>Reguler A, B, & CS</td>
+                    <td>2, 5, 7</td>
+                    <td><span class="badge badge-online">ONLINE</span></td>
+                </tr>
+                <tr>
+                    <td>Reguler CK</td>
+                    <td>Semua Semester (1-7)</td>
+                    <td><span class="badge badge-offline">OFFLINE</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="registration-mega-box">
+            <div class="mega-label">📍 Prioritas: Jadwal & Biaya</div>
+            <div class="grid-regis">
+                <div class="regis-card offline-side">
+                    <span style="font-weight: bold; color: #1e7e34;">PESERTA OFFLINE</span>
+                    <div class="date-badge">04 - 16 Mei 2026</div>
+                    <span class="price-text">Rp 125.000</span>
+                </div>
+                <div class="regis-card online-side">
+                    <span style="font-weight: bold; color: #007bff;">PESERTA ONLINE</span>
+                    <div class="date-badge">17 - 31 Mei 2026</div>
+                    <span class="price-text">Rp 100.000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-daftar-container">
+            <a href="https://event.unpam.ac.id/detail-event/752" target="_blank" class="btn-daftar">👉 Daftar & Bayar di Sini 👈</a>
+        </div>
+
+        <h3 class="section-title">Prosedur Pembayaran</h3>
+        
+        <div class="recommended">
+            <strong style="color: #004085;">✅ Opsi 1: Mandiri Virtual Account (Sangat Dianjurkan)</strong>
+            <p style="font-size: 0.9rem; margin-top: 5px;">Bayar mandiri via web event masing-masing. Proses validasi otomatis & cepat (1-3 hari kerja).</p>
+        </div>
+
+        <div class="payment-section">
+            <strong style="color: #333;">⚠️ Opsi 2: Kolektif via Ketua Kelas (Proses Lebih Lama)</strong>
+            <div style="margin-top:10px;">
+                <div class="step"><div class="step-num">1</div><p style="font-size: 0.85rem;">Mahasiswa membayar ke Ketua Kelas.</p></div>
+                <div class="step"><div class="step-num">2</div><p style="font-size: 0.85rem;">Ketua kelas mengisi template excel di grup koordinasi.</p></div>
+                <div class="step"><div class="step-num">3</div><p style="font-size: 0.85rem;">Ketua kelas konfirmasi WA ke Dosen Panitia (PIC Pendaftaran).</p></div>
+                <div class="step"><div class="step-num">4</div><p style="font-size: 0.85rem;">Setelah verifikasi data, transfer ke Rekening Panitia yang diberikan.</p></div>
+            </div>
+        </div>
+
+        <div class="warning-box">
+            <h4>⚠️ PERINGATAN PENTING</h4>
+            <p style="font-size: 0.9rem;">Mohon untuk <b>tidak membayar di akhir batas pembayaran</b> (30 Mei 2026). Terdapat risiko tinggi pembayaran tidak tervalidasi oleh sistem.</p>
+        </div>
+    </div>
+    
+    <div style="text-align: center; padding: 20px; font-size: 0.8rem; color: #888;">
+        &copy; 2026 Program Studi Teknik Informatika - Universitas Pamulang
+    </div>
+</div>
+
+</body>
+</html>
