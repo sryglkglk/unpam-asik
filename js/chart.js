@@ -5,9 +5,21 @@
             // Ambil semua tugas
             const tugasKeys = Object.keys(data).filter(k => k.startsWith('tugas.'));
             // Urutkan berdasarkan deadline terdekat
+
+            function parseDeadline(str) {
+                if (!str) return null;
+                // Ambil bagian tanggal saja, buang jam
+                const datePart = str.split(',')[0].trim(); // "2026-05-02"
+                const parts = datePart.split('-');
+                if (parts.length === 3) {
+                    return new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+                }
+                return new Date(datePart);
+            }           
+            
             tugasKeys.sort((a, b) => {
-                const dA = new Date(data[a].deadline);
-                const dB = new Date(data[b].deadline);
+                const dA = parseDeadline(data[a].deadline);
+                const dB = parseDeadline(data[b].deadline);
                 return dA - dB;
             });
 
@@ -21,18 +33,18 @@
             function getPrioritas(deadline) {
                 if (!deadline) return 0;
                 const now = new Date();
-                const d = new Date(deadline);
-                // Hitung selisih hari
+                const d = parseDeadline(deadline);
+                if (!d || isNaN(d)) return 0; // ← guard untuk Invalid Date
                 const diffTime = d.setHours(0,0,0,0) - now.setHours(0,0,0,0);
                 const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-                if (diffDays <= 3) return 3; // Sangat Tinggi (≤ 3 hari)
-                if (diffDays <= 6) return 2; // Tinggi (≤ 6 hari)
-                if (diffDays <= 15) return 1; // Normal (≤ 15 hari)
-                if (diffDays > 15) return 0; // Pikirin Nanti (> 15 hari)
-                // Jika deadline sudah lewat, tetap sangat tinggi
-                if (diffDays < 0) return 3;
+                if (diffDays < 0) return 3;  // sudah lewat
+                if (diffDays <= 3) return 3;
+                if (diffDays <= 6) return 2;
+                if (diffDays <= 15) return 1;
                 return 0;
             }
+
+
             function getColor(prio) {
                 switch (prio) {
                     case 3: return '#e74c3c';
@@ -46,7 +58,7 @@
                 const tugas = data[key];
                 const mk = data[tugas.id_mk] || {};
                 const namaMk = mk.alias || tugas.id_mk || '';
-                const deadline = tugas.deadline ? new Date(tugas.deadline) : null;
+                const deadline = tugas.deadline ? parseDeadline(tugas.deadline) : null;
                 // Ubah bagian label di sini:
                 const label = `${namaMk}\n${deadline ? '(' + deadline.toLocaleDateString('id-ID', { day: 'numeric', month: 'long' }).replace(' ', ' ') + ')' : ''}`;
                 labels.push(label);
