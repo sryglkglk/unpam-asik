@@ -5,10 +5,18 @@ html {
 
 /* Selalu dalam Night Mode */
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0,0,0,0.85)), url('../css/viktor_bg.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: scroll; /* ← ganti dari fixed ke scroll */
     color: white;
+    /* background di body dihapus */
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),
+                url('../css/viktor_bg.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
 }
 
 /* Kalau mau tetap fixed di desktop tapi aman di iOS */
