@@ -9,18 +9,18 @@
 
 
     
-    "pekan_ini": "VII",
-    "pertemuan_2sks" : "P7",
-    "pertemuan_3sks" : "P10",
+    "pekan_ini": "UTS (abaikan tabel/card di bawah ini, dibekukan selama UTS)",
+    "pertemuan_2sks" : "DRAFT P8",
+    "pertemuan_3sks" : "DRAFT P11",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
         "alias"     : "KamKom",
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "Offline",
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "[2026-05-16, 23:59:59]",
         "_komentar" : "Format deadline: [YYYY-MM-DD, HH:MM:SS] - Contoh: [2025-07-02, 23:59:59]"
 
     },
@@ -30,9 +30,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_10",
-        "deadline"  : "Offline"
+        "jadwal"    : "Online 2x",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_11",
+        "deadline"  : "[2026-05-16, 23:59:59]"
     },
 
     "mk.3": {
@@ -40,9 +40,9 @@
         "alias"     : "JANIR",
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "Offline"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "[2026-05-16, 23:59:59]"
     },
 
     "mk.4": {
@@ -50,9 +50,9 @@
         "alias"     : "KAP",
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "Offline"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "[2026-05-16, 23:59:59]"
     },
 
     "mk.5": {
@@ -60,9 +60,9 @@
         "alias"     : "TQA",
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "[2026-05-02, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "Offline"
     },
     
     "mk.6": {
@@ -70,9 +70,9 @@
         "alias"     : "EP",
         "dosen"     : "Dr. SHOLIHIN, S.Kom., M.M.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "[2026-05-02, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "Offline"
     },
 
     "mk.7": {
@@ -80,9 +80,9 @@
         "alias"     : "MPI",
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_7",
-        "deadline"  : "[2026-05-02, 23:59:59]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_8",
+        "deadline"  : "Offline"
     },
 
     "mk.8": {
@@ -90,9 +90,9 @@
         "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_10",
-        "deadline"  : "[2026-05-01, 23:59:59]"
+        "jadwal"    : "Offline, Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_12",
+        "deadline"  : "[2026-05-16, 23:59:59]"
     },
 
 
@@ -125,7 +125,7 @@
         "id_mk"     : "mk.4",
         "namatugas" : "PPT Keseharian untuk MK Kecakapan Antar Personal",
         "deskripsi" : "Buat PPT yang menggambarkan keseharian di tempat kerja atau aktivitas sehari-hari yang mencerminkan kompetensi KAP.",
-        "cara"      : "Dikumpulkan sebelum UTS",
+        "cara"      : "Dikumpulkan sebelum UTS ke <a href=\"https://forms.gle/aYjK6SW6QNb2ZS1A9\" style=\"color: yellow; text-decoration: underline;\" target=\"_blank\">Google Form</a>",
         "deadline"  : "2026-05-02, 15:00:00"
     },
 
