@@ -139,6 +139,13 @@
         "cadangan"  : ""
     },    
 
+    "info.7": {
+        "judul"     : "Template LJ UTS",
+        "isi"       : "<a href='https://docs.google.com/document/d/1HM2AYZgf3NgsEPKl50h3wdW9LXuIZSvs/edit?usp=drive_link&ouid=108373473897564788808&rtpof=true&sd=true' target='_blank' style='color: #00ff3c; text-decoration: underline;'>Download Template LJ UTS di sini!</a>",
+        "realease"  : "Rabu, 2026-05-06"
+    },
+
+
 
     "tugas.1": {
         "id_mk"     : "mk.4",
