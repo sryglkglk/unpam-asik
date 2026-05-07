@@ -103,19 +103,19 @@
     "info.1": {
         "judul"     : "Masuk Jam Pertama Perkuliahan Normal",
         "isi"       : "Jam ke-1 Masuk Pukul 7:40,<br>Jangan Lupa Bawa Laptop",
-        "realease"  : "Senin, 2026-04-27"
+        "realease"  : "2026-04-27"
     },
 
     "info.2": {
         "judul"     : "Grup WA dan Fasilitas Matkul",
         "isi"       : "<ol style='margin-left: -1em;'><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
-        "realease"  : "Minggu, 2026-03-01"
+        "realease"  : "2026-03-01"
     },
 
     "info.3": {
         "judul"     : "Aplikasi Wajib⚠️",
         "isi"       : "VSCode, Cisco Packet Tracer",
-        "realease"  : "Senin, 2026-04-27"
+        "realease"  : "2026-04-27"
     },
 
     "info.4": {
@@ -128,28 +128,28 @@
     "info.5": {
         "judul"     : "UTS - Etika Profesi",
         "isi"       : "Kamis (07/05/2026) - Sabtu (09/05/2026 : 18:00 WIB)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a><br>Catatan: Salinan Jawaban kumpulkan di <a href='https://drive.google.com/drive/folders/1WQf8zY9uj6w6tnDJ9_ghlyV4vt0yOKKZ?usp=drive_link' target='_blank' style='color: #00ff3c; text-decoration: underline;'>Google Drive</a>.",
-        "realease"  : "Rabu, 2026-05-06",
+        "realease"  : "2026-05-06",
         "cadangan"  : ""
     },
 
     "info.6": {
         "judul"     : "UTS - Manajemen Proyek Informatika",
-        "isi"       : "Sabtu (07/05/2026 : 18:00 WIB)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
-        "realease"  : "Rabu, 2026-05-06",
+        "isi"       : "Sabtu (09/05/2026 : 18:00 WIB)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
+        "realease"  : "2026-05-06",
         "cadangan"  : ""
     },
 
     "info.7": {
         "judul"     : "UTS - Arsitektur dan Organisasi Komputer",
-        "isi"       : "Sabtu (07/05/2026 : <span style='font-weight: bold; color: yellow;'>21:00 s/d. 22:00 WIB</span>)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
-        "realease"  : "Kamis, 2026-05-07",
+        "isi"       : "Kamis (07/05/2026 : <span style='font-weight: bold; color: yellow;'>21:00 s/d. 22:00 WIB</span>)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
+        "realease"  : "2026-05-07",
         "cadangan"  : ""
     },    
 
     "info.8": {
         "judul"     : "Template LJ UTS",
         "isi"       : "<a href='https://docs.google.com/document/d/1HM2AYZgf3NgsEPKl50h3wdW9LXuIZSvs/edit?usp=drive_link&ouid=108373473897564788808&rtpof=true&sd=true' target='_blank' style='color: #00ff3c; text-decoration: underline;'>Download Template LJ UTS di sini!</a>",
-        "realease"  : "Rabu, 2026-05-06"
+        "realease"  : "2026-05-06"
     },
 
 
@@ -252,31 +252,31 @@
     "info_umum.1": {
         "judul"     : "Males Ngisi Info",
         "isi"       : "Intinya jangan lupa bayaran, daftar Ujikom dan Toefl sesuai kesanggupan, sisanya bisa dibicarakan.",
-        "realease"  : "Kamis, 2026-02-26"
+        "realease"  : "2026-02-26"
     },
 
         "info_umum.2": {
         "judul"     : "<span style=\"color: orange; text-decoration: none;\">BATAS PEMBAYARAN</span>",
         "isi"       : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
-        "realease"  : "Jum'at, 2026-02-27"
+        "realease"  : "2026-02-27"
     },
 
         "info_umum.3": {
         "judul"     : "<span style=\"color: orange; text-decoration: none;\">INFO UJIKOM GELOMBANG 66</span>",
         "isi"       : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pendaftaran:</dt><dd>30 Maret - 26 April 2026</dd></li><li><dt>Pelatihan:</dt><dd>3 Mei 2026</dd></li><li><dt>Ujian:</dt><dd>11 Mei - 4 Juni 2026</dd></li></ul>",
-        "realease"  : "Senin, 2026-04-06"
+        "realease"  : "2026-04-06"
     },
 
         "info_umum.4": {
         "judul"     : "<span style=\"color: yellow; text-decoration: none;\">SEMPRO TAHAP - III</span>",
         "isi" : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pengajuan Judul:</dt><dd>27 Apr - 2 Mei 2026</dd></li><li><dt>Pendf. Judul diterima ke FTI & My UNPAM:</dt><dd>4-9 Mei 2026</dd></li><li><dt>Penyerahan berkas persyaratan:</dt><dd>11-18 Mei 2026</dd></li><li><dt>Pelaksanaan sidang Pra UAPS:</dt><dd>21-22 Mei 2026</dd></li></ul><br> <a href=\"https://informatika.unpam.ac.id/info-pendaftaran-dan-jadwal-proposal-tugas-akhir\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik di sini untuk selengkapnya!</a> <br> Bulan ini siapkan waktu aktif untuk memproses proposal skripsi ya semuanya. Semangaat!!<br>",
-        "realease"  : "Kamis, 2026-04-23"
+        "realease"  : "2026-04-23"
     },
 
         "info_umum.5": {
         "judul"     : "<span style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
         "isi"       : "<a href=\"seminar 25-02new.html\" style=\"color: lightgreen; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(new)</a><br><a href=\"info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(old)</a>",
-        "realease"  : "Selasa, 2026-04-28"
+        "realease"  : "2026-04-28"
     }
 
 }

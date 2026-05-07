@@ -56,7 +56,7 @@ fetch('./data.json')
 
       li.innerHTML = `
         <strong>${info.judul || ''}</strong><br>
-        <small style="color:#fff;">[${tanggalRilis}]</small><br>
+        <small style="color: #acacac">[Release: ${tanggalRilis}]</small><br>
         <div style="padding-left: 2em;">${info.isi || ''}</div><br><br>
       `;
 

@@ -50,7 +50,7 @@ fetch('./data.json')
       const li = document.createElement('li');
       li.innerHTML = `
         <strong style="color: #a3f7fd;">${info.judul || ''}</strong><br>
-        <small class="text-muted" style="color:#fff !important;">[${tanggalRilis}]</small><br>
+        <small class="text-muted" style="color: #acacac !important;">[Release: ${tanggalRilis}]</small><br>
         <div style="padding-left: 2em;">${info.isi || ''}</div><br><br>
       `;
       pertemuanList.appendChild(li);
