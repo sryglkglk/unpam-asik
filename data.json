@@ -137,9 +137,16 @@
         "isi"       : "Sabtu (07/05/2026 : 18:00 WIB)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
         "realease"  : "Rabu, 2026-05-06",
         "cadangan"  : ""
-    },    
+    },
 
     "info.7": {
+        "judul"     : "UTS - Arsitektur dan Organisasi Komputer",
+        "isi"       : "Sabtu (07/05/2026 : <span style='font-weight: bold; color: yellow;'>21:00 s/d. 22:00 WIB</span>)<br>Online via <a href='https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=UTS' target='_blank' style='color: yellow; text-decoration: underline;'>Mentari</a>",
+        "realease"  : "Kamis, 2026-05-07",
+        "cadangan"  : ""
+    },    
+
+    "info.8": {
         "judul"     : "Template LJ UTS",
         "isi"       : "<a href='https://docs.google.com/document/d/1HM2AYZgf3NgsEPKl50h3wdW9LXuIZSvs/edit?usp=drive_link&ouid=108373473897564788808&rtpof=true&sd=true' target='_blank' style='color: #00ff3c; text-decoration: underline;'>Download Template LJ UTS di sini!</a>",
         "realease"  : "Rabu, 2026-05-06"
