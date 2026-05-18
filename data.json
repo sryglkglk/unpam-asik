@@ -132,7 +132,7 @@
     "tugas.2": {
         "id_mk"     : "mk.8",
         "namatugas" : "Tugas Kelompok Arkom",
-        "deskripsi" : "Tugas Presentasi Kelompok dengan Penilaian Individu sesuai topik pilihan yaang sudah disepakati. Cek selengkapnya di <a style='color: yellow; text-decoration: none;' href='./tugas/tugas_arkom.html' target='_blank'>sini</a>.",
+        "deskripsi" : "Tugas Presentasi Kelompok dengan Penilaian Individu sesuai topik pilihan yang sudah disepakati. Cek selengkapnya di <a style='color: yellow; text-decoration: none;' href='./tugas/tugas_arkom.html' target='_blank'>sini</a>.",
         "cara"      : "Pelaksanaan setiap pekan saat tatap muka.",
         "deadline"  : "2026-05-23, 09:20:00"
     },
