@@ -44,7 +44,7 @@ fetch('./data.json')
           year: 'numeric'
         });
       } else {
-        tanggalRilis = info.realease || '';
+        tanggalRilis = info.release || '';
       }
 
       const li = document.createElement('li');

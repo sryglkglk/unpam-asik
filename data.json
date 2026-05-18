@@ -124,9 +124,17 @@
     "tugas.1": {
         "id_mk"     : "mk.5",
         "namatugas" : "Tugas Kelompok Testing (2 Orang)",
-        "deskripsi" : "Melakukan Skenario Testing untuk Aplikasi pilihan yang sudah disepakati. Aplikasi tidak boleh sama atau dengan Business Process yang mirip dengan kelompok lain.<br>Jumlah Case bebas, minimal akumulasi skenario sebanyak 25 dari semua case yang dibuat.",
-        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, info lebih lanjut menyusul.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='./tugas/format_tugas_TQA.jpeg' target='_blank'>sini</a>.</li></ol>",
+        "deskripsi" : "Melakukan Skenario Testing untuk Aplikasi pilihan yang sudah disepakati. Aplikasi tidak boleh sama atau dengan Business Process yang mirip dengan kelompok lain. Jumlah Case bebas, minimal akumulasi skenario sebanyak 25 dari semua case yang dibuat.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='./tugas/format_tugas_TQA.jpeg' target='_blank'>sini</a>.",
+        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, info lebih lanjut menyusul.</li></ol>",
         "deadline"  : "2026-06-20, 09:20:00"
+    },
+
+    "tugas.2": {
+        "id_mk"     : "mk.8",
+        "namatugas" : "Tugas Kelompok Arkom",
+        "deskripsi" : "Tugas Presentasi Kelompok dengan Penilaian Individu sesuai topik pilihan yaang sudah disepakati. Cek selengkapnya di <a style='color: yellow; text-decoration: none;' href='./tugas/tugas_arkom.html' target='_blank'>sini</a>.",
+        "cara"      : "Pelaksanaan setiap pekan saat tatap muka.",
+        "deadline"  : "2026-05-23, 09:20:00"
     },
 
 
