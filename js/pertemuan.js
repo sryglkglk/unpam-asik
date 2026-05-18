@@ -11,7 +11,7 @@ fetch('./data.json')
       .map(key => {
         const info = data[key];
         let dateObj = null;
-        const tglRaw = info.realease || '';
+        const tglRaw = info.release || '';
 
         // Parsing format "Senin, 2025-06-02"
         const match = tglRaw.match(/^[A-Za-z]+,\s*(\d{4}-\d{2}-\d{2})$/);

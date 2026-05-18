@@ -13,8 +13,8 @@ fetch('./data.json')
 
         let dateObj = null;
 
-        if (info.realease) {
-          const tgl = info.realease;
+        if (info.release) {
+          const tgl = info.release;
 
           // format: "Senin, 2026-02-23"
           const match = tgl.match(/^[A-Za-z]+,\s*(\d{4}-\d{2}-\d{2})$/);
@@ -47,9 +47,9 @@ fetch('./data.json')
           month: 'long',
           year: 'numeric'
         });
-      } else if (info.realease) {
+      } else if (info.release) {
         // fallback kalau format aneh
-        tanggalRilis = info.realease;
+        tanggalRilis = info.release;
       }
 
       const li = document.createElement('li');
