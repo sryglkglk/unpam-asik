@@ -2,192 +2,300 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tugas Arsitektur dan Organisasi Komputer</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      line-height: 1.6;
+    :root {
+      --bg: #f4f1eb;
+      --surface: #ffffff;
+      --border: #c8c0b0;
+      --accent: #1a3a5c;
+      --accent2: #c0392b;
+      --text: #1c1c1c;
+      --muted: #6b6560;
+      --tag-bg: #1a3a5c;
+      --tag-text: #ffffff;
     }
-    table {
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    .page-header {
+      background: var(--accent);
+      color: #fff;
+      padding: 32px 32px 24px;
+      border-bottom: 4px solid var(--accent2);
+    }
+    .page-header h1 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .meta-row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+    .meta-item {
+      font-size: 0.8rem;
+      opacity: 0.85;
+    }
+    .meta-item strong {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #a8c4e0;
+      display: block;
+      font-size: 0.68rem;
+      margin-bottom: 2px;
+    }
+
+    /* ── BODY WRAPPER ── */
+    .wrapper {
+      max-width: 960px;
       margin: 0 auto;
+      padding: 32px 24px;
     }
-    h1 {
-      color: #2c3e50;
+
+    /* ── SECTION: DESKRIPSI ── */
+    .section-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent2);
+      margin-bottom: 8px;
     }
-    .info {
-      margin-bottom: 15px;
+    .section-title {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 12px;
     }
-    .info span {
-      font-weight: bold;
-      display: inline-block;
-      width: 150px;
+    .desc-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      padding: 20px 24px;
+      margin-bottom: 16px;
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.7;
     }
-    ul {
-      margin-top: 10px;
+    .materi-list {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 0;
+      list-style: none;
+      margin-bottom: 16px;
+      overflow: hidden;
+      border-radius: 2px;
     }
-    li {
-      margin-bottom: 5px;
+    .materi-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ede9e0;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      transition: background 0.15s;
     }
-    .note {
-      margin-top: 20px;
+    .materi-list li:last-child { border-bottom: none; }
+    .materi-list li:hover { background: #f9f7f2; }
+    .materi-num {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--accent2);
+      min-width: 20px;
+      flex-shrink: 0;
+    }
+    .note-box {
+      background: #fef9f0;
+      border: 1px solid #e8d8b0;
+      border-left: 4px solid #e0a020;
+      padding: 14px 20px;
+      font-size: 0.82rem;
+      color: #7a6030;
       font-style: italic;
-      color: #555;
+      line-height: 1.7;
+      margin-bottom: 40px;
     }
-  </style>
-</head>
-<body>
-  <h1>Tugas Arsitektur dan Organisasi Komputer</h1>
 
-  <div class="info">
-    <span>Model Penugasan</span>:Tugas Kelompok<br>
-    <span>Model Penilaian</span>:Individu
-  </div>
-
-  <h2 style="text-align: left;">Deskripsi Tugas</h2>
-  <p>
-    Mahasiswa berkelompok (ditentukan dosen) untuk mengerjakan tugas presentasi dengan pilihan topik yang disepakati untuk setiap kelompok sebagai berikut:
-  </p>
-
-  <ol>
-    <li>Mengenal struktur dan fungsi sistem komputer dalam arsitektur modern</li>
-    <li>Perbandingan Arsitektur RISC CISC pada Processor Modern</li>
-    <li>Peran CPU dalam Kinerja Komputer: ALU, Control Unit, dan Register</li>
-    <li>Sistem Input/Output dan Interkoneksi Bus dalam Komunikasi Perangkat Komputer</li>
-    <li>Manajemen memori dan teknologi penyimpanan pada sistem komputer modern</li>
-    <li>Keamanan komputer dan tantangan teknologi di era digital</li>
-    <li>Evolusi arsitektur komputer dari generasi awal hingga teknologi modern</li>
-  </ol>
-
-  <p class="note">
-    Mahasiswa ditugaskan untuk melakukan presentasi dengan pemahaman materi secara mendalam tentang bagian materi yang ia paparkan dan menjawab pertanyaan langsung dari dosen. Tidak ada sesi pertanyaan dari mahasiswa lain dan tidak diperbolehkan menjawab pertanyaan yang ditujukan pada teman.
-  </p>
-  <title>Pembagian Kelompok Mahasiswa</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 2px solid var(--border);
+      margin: 0 0 32px;
     }
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .container {
+
+    /* ── GRID KELOMPOK ── */
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 15px;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
     }
     .card {
-      border: 1px solid #999;
-      border-radius: 6px;
-      padding: 10px;
-      background-color: #f9f9f9;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: box-shadow 0.2s, transform 0.2s;
     }
-    .card h3 {
-      margin-top: 0;
-      text-align: center;
-      background-color: #f2f2f2;
-      padding: 8px;
-      border-radius: 4px;
+    .card:hover {
+      box-shadow: 0 6px 20px rgba(26,58,92,0.12);
+      transform: translateY(-2px);
     }
-    ol {
-      padding-left: 20px;
+    .card-head {
+      background: var(--accent);
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-head h3 {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+    .card-num {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.15);
+      line-height: 1;
+    }
+    .card-topic {
+      background: #edf2f7;
+      padding: 10px 14px;
+      font-size: 0.76rem;
+      color: var(--accent);
+      font-style: italic;
+      border-bottom: 1px solid var(--border);
+      line-height: 1.5;
+    }
+    .card-body {
+      padding: 12px 14px;
+      flex: 1;
+    }
+    .card-body ol {
+      padding-left: 16px;
       margin: 0;
     }
-    li {
-      margin-bottom: 4px;
+    .card-body li {
+      font-size: 0.82rem;
+      color: var(--text);
+      padding: 3px 0;
+      border-bottom: 1px dashed #ede9e0;
+      line-height: 1.4;
     }
-    /* Responsif tambahan */
-    @media (max-width: 600px) {
-      .container {
-        grid-template-columns: 1fr; /* jadi vertikal penuh */
-      }
+    .card-body li:last-child { border-bottom: none; }
+
+    @media (max-width: 540px) {
+      .grid { grid-template-columns: 1fr; }
+      .page-header { padding: 20px 16px; }
+      .wrapper { padding: 20px 16px; }
     }
   </style>
 </head>
 <body>
-  <h2>Pembagian Kelompok Mahasiswa</h2>
-  <div class="container">
-    <div class="card">
-      <h3>Kelompok 1</h3>
-      <p style="font-style: italic;">Mengenal struktur dan fungsi sistem komputer dalam arsitektur modern</p>
-      <ol>
-        <li>Ade Rahman</li>
-        <li>Ahmad Afgani</li>
-        <li>Akbar Fauzi Mutaqin</li>
-        <li>Akbar Juliandi</li>
-        <li>Aldetia Farendi</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 2</h3>
-      <p style="font-style: italic;">Perbandingan Arsitektur RISC CISC pada Processor Modern</p>
-      <ol>
-        <li>Aldi Pratama</li>
-        <li>Alfitri Deviani</li>
-        <li>Angelus Defananda</li>
-        <li>Angga Firman Hidayat</li>
-        <li>Asep Surya Agustin</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 3</h3>
-      <p style="font-style: italic;">Peran CPU dalam Kinerja Komputer: ALU, Control Unit, dan Register</p>
-      <ol>
-        <li>Dava Arie Pratama</li>
-        <li>Debby Ardiansyah</li>
-        <li>Dwi Ihwanto</li>
-        <li>Eldrick Trifaldo Puturuhu</li>
-        <li>Fajar Mulya</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 4</h3>
-      <p style="font-style: italic;">Sistem Input/Output dan Interkoneksi Bus dalam Komunikasi Perangkat Komputer</p>
-      <ol>
-        <li>Ferdiansyah</li>
-        <li>Fitria Ningsih</li>
-        <li>Jaka Oktavian</li>
-        <li>Kazhem Avie Alahkim Alfath Umarona</li>
-        <li>Khoirul Umam</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 5</h3>
-      <p style="font-style: italic;">Manajemen Memori dan Teknologi Penyimpanan pada Sistem Komputer Modern</p>
-      <ol>
-        <li>Lili Nurhalim</li>
-        <li>M. Irfan Apriyana</li>
-        <li>Maya Komariyah</li>
-        <li>Mohammad Iqbal Baharsyah</li>
-        <li>Mohammad Nur Arief</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 6</h3>
-      <p style="font-style: italic;">Keamanan Komputer dan Tantangan Teknologi di Era Digital</p>
-      <ol>
-        <li>Muhamad Haerudin</li>
-        <li>Muhammad Daffa Katianda</li>
-        <li>Muhammad Iqbal</li>
-        <li>Muhammad Rifqi Fudhoil</li>
-        <li>Muhammad Syaefudin</li>
-      </ol>
-    </div>
-    <div class="card">
-      <h3>Kelompok 7</h3>
-      <p style="font-style: italic;">Evolusi Arsitektur Komputer dari Generasi Awal hingga Teknologi Modern</p>
-      <ol>
-        <li>Muhammad Zidane Al Fariz</li>
-        <li>Nida A'maliah</li>
-        <li>Nita Apriliyanti</li>
-        <li>Nur Ilmi Mareti</li>
-        <li>Rio Adriana</li>
-        <li>Rivai Syukur Ramadhan</li>
-      </ol>
-    </div>
+
+<div class="page-header">
+  <h1>Tugas Arsitektur &amp; Organisasi Komputer</h1>
+  <div class="meta-row">
+    <div class="meta-item"><strong>Model Penugasan</strong>Tugas Kelompok</div>
+    <div class="meta-item"><strong>Model Penilaian</strong>Individu</div>
   </div>
+</div>
+
+<div class="wrapper">
+
+  <div class="section-label">01 — Deskripsi</div>
+  <div class="section-title">Topik Presentasi</div>
+  <div class="desc-box">
+    Mahasiswa berkelompok (ditentukan dosen) untuk mengerjakan tugas presentasi dengan pilihan topik yang disepakati untuk setiap kelompok sebagai berikut:
+  </div>
+
+  <ol class="materi-list" id="materi-list"></ol>
+
+  <div class="note-box">
+    Mahasiswa ditugaskan untuk melakukan presentasi dengan pemahaman materi secara mendalam tentang keseluruhan materi yang kelompoknya paparkan dan menjawab pertanyaan langsung dari dosen. Tidak ada sesi pertanyaan dari mahasiswa lain dan tidak diperbolehkan menjawab pertanyaan yang ditujukan pada teman.
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-label">02 — Pembagian</div>
+  <div class="section-title">Kelompok Mahasiswa</div>
+  <div class="grid" id="grid-kelompok"></div>
+
+</div>
+
+<script>
+  const daftarMateri = [
+    'Mengenal struktur dan fungsi sistem komputer dalam arsitektur modern',
+    'Perbandingan Arsitektur RISC CISC pada Processor Modern',
+    'Peran CPU dalam Kinerja Komputer: ALU, Control Unit, dan Register',
+    'Sistem Input/Output dan Interkoneksi Bus dalam Komunikasi Perangkat Komputer',
+    'Manajemen memori dan teknologi penyimpanan pada sistem komputer modern',
+    'Keamanan komputer dan tantangan teknologi di era digital',
+    'Evolusi arsitektur komputer dari generasi awal hingga teknologi modern'
+  ];
+
+  const kelompok = [
+    ['Ade Rahman', 'Ahmad Afgani', 'Akbar Fauzi Mutaqin', 'Akbar Juliandi', 'Aldetia Farendi'],
+    ['Aldi Pratama', 'Alfitri Deviani', 'Angelus Defananda', 'Angga Firman Hidayat', 'Asep Surya Agustin'],
+    ['Dava Arie Pratama', 'Debby Ardiansyah', 'Dwi Ihwanto', 'Eldrick Trifaldo Puturuhu', 'Fajar Mulya'],
+    ['Ferdiansyah', 'Fitria Ningsih', 'Jaka Oktavian', 'Kazhem Avie Alahkim Alfath Umarona', 'Khoirul Umam'],
+    ['Lili Nurhalim', 'M. Irfan Apriyana', 'Maya Komariyah', 'Mohammad Iqbal Baharsyah', 'Mohammad Nur Arief'],
+    ['Muhamad Haerudin', 'Muhammad Daffa Katianda', 'Muhammad Iqbal', 'Muhammad Rifqi Fudhoil', 'Muhammad Syaefudin'],
+    ['Muhammad Zidane Al Fariz', "Nida A'maliah", 'Nita Apriliyanti', 'Nur Ilmi Mareti', 'Rio Adriana', 'Rivai Syukur Ramadhan']
+  ];
+
+  // Render daftar materi
+  const listEl = document.getElementById('materi-list');
+  daftarMateri.forEach((materi, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span class="materi-num">${String(i + 1).padStart(2, '0')}</span>${materi}`;
+    listEl.appendChild(li);
+  });
+
+  // Render grid kelompok
+  const grid = document.getElementById('grid-kelompok');
+  kelompok.forEach((anggota, i) => {
+    const anggotaItems = anggota.map(nama => `<li>${nama}</li>`).join('');
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="card-head">
+        <h3>Kelompok ${i + 1}</h3>
+        <span class="card-num">${String(i + 1).padStart(2, '0')}</span>
+      </div>
+      <div class="card-topic">${daftarMateri[i]}</div>
+      <div class="card-body"><ol>${anggotaItems}</ol></div>
+    `;
+    grid.appendChild(card);
+  });
+</script>
 
 </body>
 </html>
