@@ -7,9 +7,9 @@
         "email"     : "sry.kuliah.unpam@gmail.com"
     },
 
-    "pekan_ini"         : "Pekan XI",
-    "pertemuan_2sks"    : "P11",
-    "pertemuan_3sks"    : "P16",
+    "pekan_ini"         : "Pekan XII",
+    "pertemuan_2sks"    : "P12",
+    "pertemuan_3sks"    : "P17, P18",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -17,8 +17,8 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_11",
-        "deadline"  : "[2026-06-06, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_12",
+        "deadline"  : "[2026-06-13, 23:59:59]"
     },
 
     "mk.2": {
@@ -27,8 +27,8 @@
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_16",
-        "deadline"  : "[2026-06-06, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_17",
+        "deadline"  : "[2026-06-13, 23:59:59]"
     },
 
     "mk.3": {
@@ -37,8 +37,8 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_11",
-        "deadline"  : "[2026-06-06, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_12",
+        "deadline"  : "[2026-06-13, 23:59:59]"
     },
 
     "mk.4": {
@@ -47,8 +47,8 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_11",
-        "deadline"  : "[2026-06-06, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_12",
+        "deadline"  : "[2026-06-13, 23:59:59]"
     },
 
     "mk.5": {
@@ -57,7 +57,7 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_11",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_12",
         "deadline"  : "Offline<br>[07:40 - 09:20]"
     },
 
@@ -67,7 +67,7 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., MM",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_11",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_12",
         "deadline"  : "Offline<br>[09:20 - 11:00]"
     },
 
@@ -77,7 +77,7 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_11",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_12",
         "deadline"  : "Offline<br>[11:00 - 13:50]"
     },
 
@@ -87,8 +87,8 @@
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_16",
-        "deadline"  : "Offline<br>[13:50 - 15:30]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_18",
+        "deadline"  : "[2026-06-12, 23:59:59]"
     },
 
 
@@ -133,6 +133,13 @@
         "deadline"  : "2026-05-23, 09:20:00"
     },
 
+    "tugas.3": {
+        "id_mk"     : "mk.7",
+        "namatugas" : "Tugas Individu Manajemen Proyek Informatika",
+        "deskripsi" : "Membuat Timeline Project menggunakan tabel gantt dalam sebuah presentasi. Aplikasi yang akan dibuat bebas, dengan skenario masuk akal sesuai waktunya. Buat semenarik mungkin.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='./tugas/format_tugas_MPI.pdf' target='_blank'>sini</a>.",
+        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, info lebih lanjut menyusul.</li></ol>",
+        "deadline"  : "2026-06-12, 09:20:00"
+    },    
 
 
     "kontak.1": {
