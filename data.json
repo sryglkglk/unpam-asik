@@ -7,9 +7,9 @@
         "email"     : "sry.kuliah.unpam@gmail.com"
     },
 
-    "pekan_ini"         : "Pekan XII",
-    "pertemuan_2sks"    : "P12",
-    "pertemuan_3sks"    : "P17, P18",
+    "pekan_ini"         : "Pekan XIII",
+    "pertemuan_2sks"    : "P13",
+    "pertemuan_3sks"    : "P19",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -17,8 +17,8 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_12",
-        "deadline"  : "[2026-06-13, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_13",
+        "deadline"  : "[2026-06-20, 23:59:59]"
     },
 
     "mk.2": {
@@ -27,8 +27,8 @@
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_17",
-        "deadline"  : "[2026-06-13, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_19",
+        "deadline"  : "[2026-06-20, 23:59:59]"
     },
 
     "mk.3": {
@@ -37,8 +37,8 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_12",
-        "deadline"  : "[2026-06-13, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_13",
+        "deadline"  : "[2026-06-20, 23:59:59]"
     },
 
     "mk.4": {
@@ -47,8 +47,8 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_12",
-        "deadline"  : "[2026-06-13, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_13",
+        "deadline"  : "[2026-06-20, 23:59:59]"
     },
 
     "mk.5": {
@@ -57,7 +57,7 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_12",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_13",
         "deadline"  : "Offline<br>[07:40 - 09:20]"
     },
 
@@ -67,7 +67,7 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., MM",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_12",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_13",
         "deadline"  : "Offline<br>[09:20 - 11:00]"
     },
 
@@ -77,7 +77,7 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_12",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_13",
         "deadline"  : "Offline<br>[11:00 - 13:50]"
     },
 
@@ -87,8 +87,8 @@
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_18",
-        "deadline"  : "[2026-06-12, 23:59:59]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_19",
+        "deadline"  : "Offline<br>[13:50 - 15:30]"
     },
 
 
@@ -108,20 +108,14 @@
         "release"   : "2026-03-01"
     },
 
-    "info.3"        : {
-        "judul"     : "Aplikasi Wajib⚠️",
-        "isi"       : "-- Belum ada info untuk Mata Kuliah Kelompok 2 --",
-        "release"   : "2026-05-11"
-    },
-
 
 
 
     "tugas.1": {
         "id_mk"     : "mk.5",
         "namatugas" : "Tugas Kelompok Testing (2 Orang)",
-        "deskripsi" : "Melakukan Skenario Testing untuk Aplikasi pilihan yang sudah disepakati. Aplikasi tidak boleh sama atau dengan Business Process yang mirip dengan kelompok lain. Jumlah Case bebas, minimal akumulasi skenario sebanyak 25 dari semua case yang dibuat.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='./tugas/format_tugas_TQA.jpeg' target='_blank'>sini</a>.",
-        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, info lebih lanjut menyusul.</li></ol>",
+        "deskripsi" : "Melakukan Skenario Testing untuk Aplikasi pilihan yang sudah disepakati. Aplikasi tidak boleh sama atau dengan Business Process yang mirip dengan kelompok lain. Jumlah Case bebas, minimal akumulasi skenario sebanyak 25 dari semua case yang dibuat.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='https://docs.google.com/spreadsheets/d/1KTUG4pH_mimGggQZvb8ObjF3X7-vbIu6/edit?usp=drive_link&ouid=108373473897564788808&rtpof=true&sd=true' target='_blank'>sini</a>.",
+        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, template .xlsx dan pengumpulan di <a style='color: yellow; text-decoration: underline;' href='https://forms.gle/ZEZ3ERxZRFQ61fre9' target='_blank'>Form Tugas</a></li></ol>",
         "deadline"  : "2026-06-20, 09:20:00"
     },
 
@@ -206,31 +200,8 @@
         "release"       : "2026-02-27"
     },
 
+
         "info_umum.2"   : {
-        "judul"         : "<span style=\"color: orange; text-decoration: none;\">INFO UJIKOM GELOMBANG 66</span>",
-        "isi"           : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pendaftaran:</dt><dd>30 Maret - 26 April 2026</dd></li><li><dt>Pelatihan:</dt><dd>3 Mei 2026</dd></li><li><dt>Ujian:</dt><dd>11 Mei - 4 Juni 2026</dd></li></ul>",
-        "release"       : "2026-04-06"
-    },
-
-        "info_umum.3"   : {
-        "judul"         : "<span style=\"color: yellow; text-decoration: none;\">SEMPRO TAHAP - III</span>",
-        "isi"           : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pengajuan Judul:</dt><dd>27 Apr - 2 Mei 2026</dd></li><li><dt>Pendf. Judul diterima ke FTI & My UNPAM:</dt><dd>4-9 Mei 2026</dd></li><li><dt>Penyerahan berkas persyaratan:</dt><dd>11-18 Mei 2026</dd></li><li><dt>Pelaksanaan sidang Pra UAPS:</dt><dd>21-22 Mei 2026</dd></li></ul>",
-        "release"       : "2026-04-23"
-    },    
-
-        "info_umum.4"   : {
-        "judul"         : "<span style=\"color: yellow; text-decoration: none;\">INFO SEMINAR NASIONAL</span>",
-        "isi"           : "<a href=\"./info/seminar 25-02new.html\" style=\"color: lightgreen; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(new)</a><br><a href=\"./info/info_seminar.html\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik untuk cek Info Seminar di sini!(old)</a>",
-        "release"       : "2026-04-28"
-    },
-
-        "info_umum.5"   : {
-        "judul"         : "<span style=\"color: yellow; text-decoration: none;\">SEMPRO TAHAP - IV</span>",
-        "isi"           : "Jadwal:<br><ul class=\"bullet-list\"><li><dt>Pengajuan Judul:</dt><dd>25 Mei - 6 Juni 2026</dd></li><li><dt>Pendf. Judul diterima ke FTI & My UNPAM:</dt><dd>8 - 12 Juni 2026</dd></li><li><dt>Penyerahan berkas persyaratan:</dt><dd>13 - 20 Juni 2026</dd></li><li><dt>Pelaksanaan sidang Pra UAPS:</dt><dd>25 - 26 Juni 2026</dd></li></ul><br> <a href=\"https://informatika.unpam.ac.id/info-pendaftaran-dan-jadwal-proposal-tugas-akhir\" style=\"color: cyan; text-decoration: none;\" target=\"_blank\">Klik di sini untuk selengkapnya!</a> <br> Bulan ini siapkan waktu aktif untuk memproses proposal skripsi ya semuanya. Semangaat!!<br>",
-        "release"       : "2026-05-14"
-    },
-
-        "info_umum.6"   : {
         "judul"         : "<span style=\"color: orange; text-decoration: none;\">BATAS PEMBAYARAN</span>",
         "isi"           : "<strong style=\"color: lightgreen;\">25 Juni 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 4</li><li>Angsuran 5</li><li>Angsuran 6</li><li>Praktek</li><li>UAS</li></ol>",
         "release"       : "2026-05-15"
