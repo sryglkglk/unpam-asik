@@ -7,18 +7,18 @@
         "email"     : "sry.kuliah.unpam@gmail.com"
     },
 
-    "pekan_ini"         : "XIV - END",
-    "pertemuan_2sks"    : "P14",
-    "pertemuan_3sks"    : "P20, P21",
+    "pekan_ini"         : "UAS",
+    "pertemuan_2sks"    : "UAS",
+    "pertemuan_3sks"    : "UAS",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
         "alias"     : "KamKom",
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=PERTEMUAN_14",
-        "deadline"  : "[2026-06-27, 23:59:59]"
+        "jadwal"    : "UAS Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382",
+        "deadline"  : "UPDATE SOON"
     },
 
     "mk.2": {
@@ -26,9 +26,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "Online 2x",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=PERTEMUAN_20",
-        "deadline"  : "[2026-06-27, 23:59:59]"
+        "jadwal"    : "UAS Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433",
+        "deadline"  : "SABTU<br>09:20 - 10:30"
     },
 
     "mk.3": {
@@ -36,9 +36,9 @@
         "alias"     : "JANIR",
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=PERTEMUAN_14",
-        "deadline"  : "[2026-06-27, 23:59:59]"
+        "jadwal"    : "UAS Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392",
+        "deadline"  : "UPDATE SOON"
     },
 
     "mk.4": {
@@ -46,9 +46,9 @@
         "alias"     : "KAP",
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=PERTEMUAN_14",
-        "deadline"  : "[2026-06-27, 23:59:59]"
+        "jadwal"    : "UAS Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402",
+        "deadline"  : "SABTU<br>Durasi 1 Hari s/d. 23:59"
     },
 
     "mk.5": {
@@ -56,8 +56,8 @@
         "alias"     : "TQA",
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=PERTEMUAN_14",
+        "jadwal"    : "UAS Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412",
         "deadline"  : "Offline<br>[07:40 - 09:20]"
     },
 
@@ -66,8 +66,8 @@
         "alias"     : "EP",
         "dosen"     : "Dr. SHOLIHIN, S.Kom., MM",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=PERTEMUAN_14",
+        "jadwal"    : "UAS Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422",
         "deadline"  : "Offline<br>[09:20 - 11:00]"
     },
 
@@ -76,8 +76,8 @@
         "alias"     : "MPI",
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
-        "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=PERTEMUAN_14",
+        "jadwal"    : "UAS Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312",
         "deadline"  : "Offline<br>[11:00 - 13:50]"
     },
 
@@ -86,9 +86,9 @@
         "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "Offline, Online",
+        "jadwal"    : "UAS Offline",
         "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_21",
-        "deadline"  : "[2026-06-26, 23:59:59]"
+        "deadline"  : "Offline<br>[13:50 - 15:20]"
     },
 
 
@@ -106,6 +106,12 @@
         "judul"     : "Grup WA dan Fasilitas Matkul",
         "isi"       : "<ol style='margin-left: -1em;'><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
         "release"   : "2026-03-01"
+    },
+
+    "info.3"        : {
+        "judul"     : "IKUTI TATA TERTIB UAS",
+        "isi"       : "Gunakan Pakaian Sesuai Standar Kode Etik, Jangan Lupa Bawa KTM, Gunakan Almamater.",
+        "release"   : "2026-06-29"
     },
 
 
