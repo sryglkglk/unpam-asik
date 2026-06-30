@@ -16,9 +16,9 @@
         "alias"     : "KamKom",
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "UAS Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382",
-        "deadline"  : "[2026-06-30, 23:59:59]"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Selasa</strong><br>Durasi 1 Hari s/d. 22:59"
     },
 
     "mk.2": {
@@ -26,9 +26,9 @@
         "alias"     : "Web 2",
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
-        "jadwal"    : "UAS Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433",
-        "deadline"  : "SABTU<br>09:20 - 10:30"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Sabtu</strong><br>09:20 - 10:30"
     },
 
     "mk.3": {
@@ -36,9 +36,9 @@
         "alias"     : "JANIR",
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "UAS Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392",
-        "deadline"  : "UPDATE SOON"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Kamis</strong><br>21:00 - 22:30"
     },
 
     "mk.4": {
@@ -46,9 +46,9 @@
         "alias"     : "KAP",
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "UAS Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402",
-        "deadline"  : "SABTU<br>Durasi 1 Hari s/d. 23:59"
+        "jadwal"    : "Online",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Sabtu</strong><br>Durasi 1 Hari s/d. 22:59"
     },
 
     "mk.5": {
@@ -56,9 +56,9 @@
         "alias"     : "TQA",
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
-        "jadwal"    : "UAS Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412",
-        "deadline"  : "Offline<br>[07:40 - 09:20]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Offline</strong><br>[07:40 - 09:20]"
     },
 
     "mk.6": {
@@ -66,9 +66,9 @@
         "alias"     : "EP",
         "dosen"     : "Dr. SHOLIHIN, S.Kom., MM",
         "sks"       : "2",
-        "jadwal"    : "UAS Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422",
-        "deadline"  : "Offline<br>[09:20 - 11:00]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Offline</strong><br>[09:20 - 11:00]"
     },
 
     "mk.7": {
@@ -76,9 +76,9 @@
         "alias"     : "MPI",
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
-        "jadwal"    : "UAS Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312",
-        "deadline"  : "Offline<br>[11:00 - 13:50]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Offline</strong><br>[11:00 - 13:50]"
     },
 
     "mk.8": {
@@ -86,9 +86,9 @@
         "alias"     : "ARKOM",
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
-        "jadwal"    : "UAS Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=PERTEMUAN_21",
-        "deadline"  : "Offline<br>[13:50 - 15:20]"
+        "jadwal"    : "Offline",
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=UAS",
+        "deadline"  : "<strong>Offline</strong><br>[13:50 - 15:20]"
     },
 
 

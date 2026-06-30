@@ -8,7 +8,7 @@
             const pertemuan3 = data.pertemuan_3sks;
             Object.keys(data)
               .filter(key => key.startsWith('mk'))
-              .forEach(key => {
+              .forEach((key, index) => {
                 const mk = data[key];
                 // Ambil jumlah pertemuan sesuai sks tanpa kurung
                 let pertemuan = '';
@@ -20,7 +20,7 @@
                 // Jika mk.jadwal sudah mengandung P..., jangan duplikat
                 let jadwal = mk.jadwal || '';
                 if (pertemuan && !jadwal.includes('P')) {
-                  jadwal = `${jadwal}<br>${pertemuan}`;
+                  jadwal = `<strong>${jadwal}</strong><br>${pertemuan}`;
                   }
 
                   // Deadline logic
@@ -67,26 +67,27 @@
 
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
+                  <td data-label="No" class="align-middle text-center">${index + 1}</td>
                   <td data-label="Matkul" class="align-middle">${mk.alias || ''}</td>
 
-                  <td data-label="Details" class="align-middle">
-                    ${mk.judul || ''}<br>
-                    <small>${mk.dosen || ''}</small>
+                  <td data-label="Details" class="text-start">
+                    <strong>${mk.judul || ''}</strong><br>
+                    <small><a href="#kontak" text style="color: #090057; text-decoration: none;">↩${mk.dosen || ''}</a></small>
                   </td>
 
-                  <td data-label="SKS" align-middle">
-                    ${mk.sks || ''}
+                  <td data-label="SKS" class="align-middle text-center">
+                    <strong>${mk.sks || ''}</strong>
                   </td>
 
-                  <td data-label="Jadwal">
+                  <td data-label="Jadwal" class="text-center align-middle">
                     ${jadwal}
                   </td>
 
-                  <td data-label="Deadline" align-middle">
+                  <td data-label="Deadline" class="align-middle">
                     ${deadlineText}${deadlineRaw}
                   </td>
 
-                  <td data-label="Link" align-middle">
+                  <td data-label="Link" class="text-center align-middle">
                     <a href="${mk.link || '#'}" class="btn btn-info btn-sm" target="_blank">Buka</a>
                   </td>
                 `;
