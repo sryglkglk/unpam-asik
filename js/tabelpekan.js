@@ -6,8 +6,17 @@
             tbody.innerHTML = '';
             const pertemuan2 = data.pertemuan_2sks;
             const pertemuan3 = data.pertemuan_3sks;
+            const labelMap = {
+                No: "No",
+                Matkul: "Code",
+                Details: "Matkul \\A \\A Dosen",
+                SKS: "SKS",
+                Jadwal: "Metode \\A \\A Pertemuan ke-",
+                Deadline: "Deadline",
+                Link: "Link"
+              };              
             Object.keys(data)
-              .filter(key => key.startsWith('mk'))
+              .filter(key => key.startsWith('mk'))            
               .forEach((key, index) => {
                 const mk = data[key];
                 // Ambil jumlah pertemuan sesuai sks tanpa kurung
@@ -65,34 +74,38 @@
                     deadlineText = 'data tidak tersedia';
                   }
 
+
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                  <td data-label="No" class="align-middle text-center">${index + 1}</td>
-                  <td data-label="Matkul" class="align-middle">${mk.alias || ''}</td>
+                  <td data-label="No" class="align-middle text-center" style="--label:'${labelMap.No}'">${index + 1}</td>
+                  <td data-label="Matkul" class="align-middle" style="--label:'${labelMap.Matkul}'">
+                    ${mk.alias || ''}
+                  </td>
 
-                  <td data-label="Details" class="text-start">
+                  <td data-label="Details" class="text-start" style="--label:'${labelMap.Details}'">
                     <strong>${mk.judul || ''}</strong><br>
                     <small><a href="#kontak" text style="color: #090057; text-decoration: none;">↩${mk.dosen || ''}</a></small>
                   </td>
 
-                  <td data-label="SKS" class="align-middle text-center">
+                  <td data-label="SKS" class="align-middle text-center" style="--label:'${labelMap.SKS}'">
                     <strong>${mk.sks || ''}</strong>
                   </td>
 
-                  <td data-label="Jadwal" class="text-center align-middle">
+                  <td data-label="Jadwal" class="text-center align-middle" style="--label:'${labelMap.Jadwal}'">
                     ${jadwal}
                   </td>
 
-                  <td data-label="Deadline" class="align-middle">
+                  <td data-label="Deadline" class="align-middle" style="--label:'${labelMap.Deadline}'">
                     ${deadlineText}${deadlineRaw}
                   </td>
 
-                  <td data-label="Link" class="text-center align-middle">
+                  <td data-label="Link" class="text-center align-middle" style="--label:'${labelMap.Link}'">
                     <a href="${mk.link || '#'}" class="btn btn-info btn-sm" target="_blank">Buka</a>
                   </td>
                 `;
                 tbody.appendChild(tr);
               });
+              
           })
           .catch(err => {
             // Jika gagal, tampilkan pesan error

@@ -198,10 +198,14 @@ ul {
 /* ============================= */
 @media (max-width: 600px) {
 
+#matkul-table td br {
+  display: none;
+}
+
 #periode-pekan strong {
   display: flex;
   flex-direction: column;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 #periode-pekan .periode-label {
@@ -236,8 +240,7 @@ ul {
   #matkul-table td {
     display: grid;
     grid-template-columns: 110px 1fr;
-    gap: 8px;
-    padding: 8px 0;
+    padding: 10px;
     align-items: start;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.06);
@@ -249,11 +252,18 @@ ul {
   }
 
   /* LABEL */
-  #matkul-table td::before {
-    content: attr(data-label);
+#matkul-table td::before {
+    content: var(--label, attr(data-label));
     font-weight: 600;
     color: #1d4ed8;
     text-align: left;
+    white-space: pre-line; /* biar \A di content kebaca sebagai line break */
+}
+
+
+  /* atur jarak line break agar tidak terlalu jauh */
+  #matkul-table td {
+    line-height: 1;
   }
 
   /* ============================= */
@@ -268,12 +278,12 @@ ul {
   /* judul matkul (baris 1) */
   #matkul-table td[data-label="Details"] > *:first-child {
     grid-column: 2;
+    padding-bottom: 16px;
   }
 
   /* dosen (baris 2) */
   #matkul-table td[data-label="Details"] > small {
     grid-column: 2;
-    margin-top: -4px;
     color: #666;
     font-size: 12px;
   }
@@ -283,6 +293,32 @@ ul {
     grid-row: 1 / span 2;
     align-self: start;
   }
+
+/* ============================= */
+/* KHUSUS JADWAL (MERGE STYLE) */
+/* ============================= */
+
+#matkul-table td[data-label="Jadwal"] {
+  grid-template-rows: auto auto;
+}
+
+#matkul-table td[data-label="Jadwal"] > *:first-child {
+  grid-column: 2;
+  padding-bottom: 16px;
+}
+
+#matkul-table td[data-label="Jadwal"] > small {
+  grid-column: 2;
+  margin-top: -4px;
+  padding-top: 2px;
+  color: #666;
+  font-size: 12px;
+}
+
+#matkul-table td[data-label="Jadwal"]::before {
+  grid-row: 1 / span 2;
+  align-self: start;
+}
 
 /* ============================= */
 /* KHUSUS DEADLINE (MERGE STYLE) */
@@ -296,6 +332,7 @@ grid-template-rows: auto auto;
 /* baris 1 deadline utama */
 #matkul-table td[data-label="Deadline"] > *:first-child {
 grid-column: 2;
+padding-bottom: 16px;
 }
 
 /* baris 2 (misalnya keterangan tambahan) */
@@ -311,6 +348,7 @@ font-size: 12px;
 grid-row: 1 / span 2;
 align-self: start;
 }
+
 
   /* ============================= */
 
