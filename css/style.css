@@ -267,86 +267,116 @@ ul {
   }
 
   /* ============================= */
-  /* KHUSUS DETAILS (MERGE STYLE)  */
+  /* KHUSUS DETAILS (SPLIT: MATKUL / DOSEN) */
   /* ============================= */
 
-  /* paksa konten jadi 2 baris */
   #matkul-table td[data-label="Details"] {
     grid-template-rows: auto auto;
+    row-gap: 6px;
   }
 
-  /* judul matkul (baris 1) */
-  #matkul-table td[data-label="Details"] > *:first-child {
-    grid-column: 2;
-    padding-bottom: 17px;
-  }
-
-  /* dosen (baris 2) */
-  #matkul-table td[data-label="Details"] > small {
-    grid-column: 2;
-    color: #666;
-    font-size: 12px;
-  }
-
-  /* supaya label cuma muncul di baris pertama */
+  /* label baris 1: "Matkul" */
   #matkul-table td[data-label="Details"]::before {
-    grid-row: 1 / span 2;
+    content: "Matkul";
+    grid-column: 1;
+    grid-row: 1;
     align-self: start;
   }
 
+  /* label baris 2: "Dosen" */
+  #matkul-table td[data-label="Details"]::after {
+    content: "Dosen";
+    grid-column: 1;
+    grid-row: 2;
+    font-weight: 600;
+    color: #1d4ed8;
+    align-self: start;
+  }
+
+  /* judul matkul → kolom isi, baris 1 */
+  #matkul-table td[data-label="Details"] > *:first-child {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  /* dosen → kolom isi, baris 2 */
+  #matkul-table td[data-label="Details"] > small {
+    grid-column: 2;
+    grid-row: 2;
+    color: #666;
+    font-size: 14px;
+  }
+
 /* ============================= */
-/* KHUSUS JADWAL (MERGE STYLE) */
+/* KHUSUS JADWAL (SPLIT: METODE / PERTEMUAN KE-) */
 /* ============================= */
 
 #matkul-table td[data-label="Jadwal"] {
   grid-template-rows: auto auto;
+  row-gap: 6px;
 }
 
+/* label baris 1: "Metode" */
+#matkul-table td[data-label="Jadwal"]::before {
+  content: "Metode";
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+}
+
+/* label baris 2: "Pertemuan ke-" */
+#matkul-table td[data-label="Jadwal"]::after {
+  content: "Pertemuan ke-";
+  grid-column: 1;
+  grid-row: 2;
+  font-weight: 600;
+  color: #1d4ed8;
+  align-self: start;
+}
+
+/* metode (Online/Offline) → kolom isi, baris 1 */
 #matkul-table td[data-label="Jadwal"] > *:first-child {
   grid-column: 2;
-  padding-bottom: 17px;
+  grid-row: 1;
 }
 
+/* pertemuan ke- → kolom isi, baris 2 */
 #matkul-table td[data-label="Jadwal"] > small {
   grid-column: 2;
-  margin-top: -4px;
-  padding-top: 2px;
-  color: #666;
-  font-size: 12px;
+  grid-row: 2;
+  color: #000000;
+  font-size: 14px;
 }
 
-#matkul-table td[data-label="Jadwal"]::before {
+/* ============================= */
+/* KHUSUS DEADLINE (LABEL SPAN 2 BARIS) */
+/* ============================= */
+
+#matkul-table td[data-label="Deadline"] {
+  grid-template-rows: auto auto;
+}
+
+/* label "Deadline" span 2 baris di kolom 1 */
+#matkul-table td[data-label="Deadline"]::before {
+  grid-column: 1;
   grid-row: 1 / span 2;
   align-self: start;
 }
 
-/* ============================= */
-/* KHUSUS DEADLINE (MERGE STYLE) */
-/* ============================= */
-
-/* paksa konten jadi 2 baris */
-#matkul-table td[data-label="Deadline"] {
-grid-template-rows: auto auto;
-}
-
-/* baris 1 deadline utama */
-#matkul-table td[data-label="Deadline"] > *:first-child {
+/* baris 1 deadline utama → kolom isi, baris 1 */
+#matkul-table td[data-label="Deadline"] > span:first-child {
 grid-column: 2;
+grid-row: 1;
 padding-bottom: 10px;
 }
 
-/* baris 2 (misalnya keterangan tambahan) */
+/* baris 2 (keterangan tambahan) → kolom isi, baris 2 (bukan kolom 1!) */
 #matkul-table td[data-label="Deadline"] > small {
 grid-column: 2;
+grid-row: 2;
 margin-top: -4px;
-color: #666;
+color: #000000;
 font-size: 12px;
-}
-
-/* label cuma muncul di baris pertama */
-#matkul-table td[data-label="Deadline"]::before {
-grid-row: 1 / span 2;
-align-self: start;
 }
 
 
@@ -368,6 +398,12 @@ align-self: start;
     font-weight: 600;
   }
 
+}
+
+/* Netralkan ukuran font <small> bawaan browser di kolom Jadwal (desktop),
+   supaya visualnya identik dengan versi teks polos sebelumnya */
+#matkul-table td[data-label="Jadwal"] > small {
+    font-size: inherit;
 }
 
 /* Center kolom tertentu saat mode tabel (desktop) */

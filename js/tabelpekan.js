@@ -1,4 +1,4 @@
-        // Ambil data matkul dari data.json dan render ke tabel
+// Ambil data matkul dari data.json dan render ke tabel
         fetch('./data.json')
           .then(response => response.json())
           .then(data => {
@@ -29,7 +29,7 @@
                 // Jika mk.jadwal sudah mengandung P..., jangan duplikat
                 let jadwal = mk.jadwal || '';
                 if (pertemuan && !jadwal.includes('P')) {
-                  jadwal = `<strong>${jadwal}</strong><br>${pertemuan}`;
+                  jadwal = `<strong>${jadwal}</strong><br><small>${pertemuan}</small>`;
                   }
 
                   // Deadline logic
