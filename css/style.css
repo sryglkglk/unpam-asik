@@ -241,7 +241,7 @@ ul {
     display: grid;
     grid-template-columns: 110px 1fr;
     padding: 10px;
-    align-items: start;
+    align-items: center;
     border: none;
     border-bottom: 1px solid rgba(0,0,0,0.06);
     text-align: left !important; /* semua align kiri */
@@ -280,7 +280,7 @@ ul {
     content: "Matkul";
     grid-column: 1;
     grid-row: 1;
-    align-self: start;
+    align-self: center;
   }
 
   /* label baris 2: "Dosen" */
@@ -290,7 +290,7 @@ ul {
     grid-row: 2;
     font-weight: 600;
     color: #1d4ed8;
-    align-self: start;
+    align-self: center;
   }
 
   /* judul matkul → kolom isi, baris 1 */
@@ -303,7 +303,6 @@ ul {
   #matkul-table td[data-label="Details"] > small {
     grid-column: 2;
     grid-row: 2;
-    color: #666;
     font-size: 14px;
   }
 
