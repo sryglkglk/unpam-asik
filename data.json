@@ -7,9 +7,9 @@
         "email"     : "sry.kuliah.unpam@gmail.com"
     },
 
-    "pekan_ini"         : "UAS",
-    "pertemuan_2sks"    : "UAS",
-    "pertemuan_3sks"    : "UAS",
+    "pekan_ini"         : "LIBUR",
+    "pertemuan_2sks"    : "LIBUR",
+    "pertemuan_3sks"    : "LIBUR",
 
     "mk.1": {
         "judul"     : "Keamanan Komputer",
@@ -17,8 +17,8 @@
         "dosen"     : "SARMAN, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Selasa</strong><br>Durasi 1 Hari s/d. 22:59"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0382",
+        "deadline"  : "-"
     },
 
     "mk.2": {
@@ -27,8 +27,8 @@
         "dosen"     : "SONASA RINUSANTORO, S.Kom., M.A.",
         "sks"       : "3",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>09:20 - 10:30"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0433",
+        "deadline"  : "-"
     },
 
     "mk.3": {
@@ -37,8 +37,8 @@
         "dosen"     : "JAKA SUTRESNA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Kamis</strong><br>21:00 - 22:30"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0392",
+        "deadline"  : "-"
     },
 
     "mk.4": {
@@ -47,8 +47,8 @@
         "dosen"     : "EKO SUTONO, S.T., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Online",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>Durasi 1 Hari s/d. 22:59"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0402",
+        "deadline"  : "-"
     },
 
     "mk.5": {
@@ -57,8 +57,8 @@
         "dosen"     : "ANIQ ASTOFA, S.Kom., M.Kom.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>[07:40 - 09:20]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0412",
+        "deadline"  : "-"
     },
 
     "mk.6": {
@@ -67,8 +67,8 @@
         "dosen"     : "Dr. SHOLIHIN, S.Kom., MM",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>[09:20 - 11:00]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0422",
+        "deadline"  : "-"
     },
 
     "mk.7": {
@@ -77,8 +77,8 @@
         "dosen"     : "NANA HERMANSYAH, S.T., M.M.S.I.",
         "sks"       : "2",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>[11:00 - 13:50]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0312",
+        "deadline"  : "-"
     },
 
     "mk.8": {
@@ -87,8 +87,8 @@
         "dosen"     : "NANANG, S.Kom., M.Kom.",
         "sks"       : "3",
         "jadwal"    : "Offline",
-        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373?accord_pertemuan=UAS",
-        "deadline"  : "<strong>Sabtu</strong><br>[13:50 - 15:20]"
+        "link"      : "https://mentari.unpam.ac.id/u-courses/20252-07TPLE004-22TIF0373",
+        "deadline"  : "-"
     },
 
 
@@ -97,49 +97,22 @@
 
 
     "info.1"        : {
-        "judul"     : "Masuk Jam Pertama Perkuliahan Normal",
-        "isi"       : "Jam ke-1 Masuk Pukul 7:40",
-        "release"   : "2026-04-27"
-    },
-
-    "info.2"        : {
-        "judul"     : "Grup WA dan Fasilitas Matkul",
-        "isi"       : "<ol style='margin-left: -1em;'><li>Grup Kelas (Forum)<br><a href='https://chat.whatsapp.com/EU99MibYUkB1GeYXpTIzOo' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li><li>Grup Info Penting<br><a href='https://chat.whatsapp.com/KMuiRa426zI6jBDMS0JDfA' target='_blank' style='color: yellow; text-decoration: none;'>Gabung WhatsApp</a></li><li>Folder Tugas & Materi<br><a href='https://drive.google.com/drive/folders/1HV13jOtrHVjZGIO2NE57TCmvIvKgmC-X' target='_blank' style='color: cyan; text-decoration: none;'>07TPLE004 Folder</a></li><li>Jaringan Nirkabel<br><a href='https://chat.whatsapp.com/LT79OuFU8wz5pVCV7PsK3H?mode=hq2tswa' target='_blank' style='color: #25D366; text-decoration: none;'>Gabung WhatsApp</a></li></ol>",
-        "release"   : "2026-03-01"
-    },
-
-    "info.3"        : {
-        "judul"     : "IKUTI TATA TERTIB UAS",
-        "isi"       : "Gunakan Pakaian Sesuai Standar Kode Etik, Jangan Lupa Bawa KTM, Gunakan Almamater.",
-        "release"   : "2026-06-29"
+        "judul"     : "No Info",
+        "isi"       : "",
+        "release"   : "2026-07-01"
     },
 
 
 
 
-    "tugas.1": {
-        "id_mk"     : "mk.5",
-        "namatugas" : "Tugas Kelompok Testing (2 Orang)",
-        "deskripsi" : "Melakukan Skenario Testing untuk Aplikasi pilihan yang sudah disepakati. Aplikasi tidak boleh sama atau dengan Business Process yang mirip dengan kelompok lain. Jumlah Case bebas, minimal akumulasi skenario sebanyak 25 dari semua case yang dibuat.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='https://docs.google.com/spreadsheets/d/1KTUG4pH_mimGggQZvb8ObjF3X7-vbIu6/edit?usp=drive_link&ouid=108373473897564788808&rtpof=true&sd=true' target='_blank'>sini</a>.",
-        "cara"      : "Pengumpulan paling lambat 20 Juni 2026, template .xlsx dan pengumpulan di <a style='color: yellow; text-decoration: underline;' href='https://forms.gle/ZEZ3ERxZRFQ61fre9' target='_blank'>Form Tugas</a></li></ol>",
-        "deadline"  : "2026-06-20, 09:20:00"
+    "tugas.0": {
+        "id_mk"     : "Ga Ada Tugas",
+        "namatugas" : "",
+        "deskripsi" : "",
+        "cara"      : "",
+        "deadline"  : "2077-12-31, 23:59:59"
     },
-
-    "tugas.2": {
-        "id_mk"     : "mk.8",
-        "namatugas" : "Tugas Kelompok Arkom",
-        "deskripsi" : "Tugas Presentasi Kelompok dengan Penilaian Individu sesuai topik pilihan yang sudah disepakati. Cek selengkapnya di <a style='color: yellow; text-decoration: none;' href='./tugas/tugas_arkom.html' target='_blank'>sini</a>.",
-        "cara"      : "Pelaksanaan setiap pekan saat tatap muka.",
-        "deadline"  : "2026-05-23, 09:20:00"
-    },
-
-    "tugas.3": {
-        "id_mk"     : "mk.7",
-        "namatugas" : "Tugas Individu Manajemen Proyek Informatika",
-        "deskripsi" : "Membuat Timeline Project menggunakan tabel gantt dalam sebuah presentasi. Aplikasi yang akan dibuat bebas, dengan skenario masuk akal sesuai waktunya. Buat semenarik mungkin.<br>Format laporan bisa dicek di <a style='color: yellow; text-decoration: underline;' href='./tugas/format_tugas_MPI.pdf' target='_blank'>sini</a>.",
-        "cara"      : "Dikerjakan secara individu, harus sudah selesai saat pertemuan 12 dimulai.",
-        "deadline"  : "2026-06-12, 12:00:00"
-    },    
+  
 
 
     "kontak.1": {
@@ -201,16 +174,9 @@
 
 
         "info_umum.1"   : {
-        "judul"         : "<span style=\"color: orange; text-decoration: none;\">BATAS PEMBAYARAN</span>",
-        "isi"           : "<strong>29 April 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 2</li><li>Angsuran 3</li><li>UTS</li></ol>",
-        "release"       : "2026-02-27"
-    },
-
-
-        "info_umum.2"   : {
-        "judul"         : "<span style=\"color: orange; text-decoration: none;\">BATAS PEMBAYARAN</span>",
-        "isi"           : "<strong style=\"color: lightgreen;\">25 Juni 2026</strong><br>harus sudah melunasi:<ol><li>Angsuran 4</li><li>Angsuran 5</li><li>Angsuran 6</li><li>Praktek</li><li>UAS</li></ol>",
-        "release"       : "2026-05-15"
+        "judul"         : "",
+        "isi"           : "",
+        "release"       : "2077-12-31"
     }
 
 }
